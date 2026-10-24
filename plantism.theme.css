@@ -1,7 +1,7 @@
 /**
  * @name plantism
  * @author pvrz
- * @version 2.2.2
+ * @version 2.3.0
  * @description a storybook garden theme for discord. night garden in dark mode, sunlit meadow in light mode.
  * @website https://pvrz.lol
  * @source https://github.com/pvrzz/plantism
@@ -1714,6 +1714,12 @@ svg:has(path[d^="M8.45329 8.53891L3.262"]):has(path[d^="M14.4533 8.53891L9.262"]
     --plant-icon-on: 1;
 }
 
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM9 8."]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/812f8c09fd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
 svg:has(path[d^="M9 12a1 1 0 0 1 1 1v2a"]):has(path[d^="M2.75 3.02A3 3 0 0 1 5 2h10a3 3 0 0 1 3 3v7.64"]):has(path[d^="M15.3 16.7a1 1 0 0 1 1"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cc01edaa94.png") center / contain no-repeat !important;
@@ -2170,6 +2176,12 @@ svg:has(path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5 5 0 0 1 2.14 3.
     --plant-icon-on: 1;
 }
 
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/66421345f8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
 svg:has(path[d^="M11.33 13.68c.41.27.93"]):has(path[d^="M3.93 13.84a.94.94 0 0"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1c133d7301.png") center / contain no-repeat !important;
@@ -2254,9 +2266,21 @@ svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3
     --plant-icon-on: 1;
 }
 
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm4.7-"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/800ea93976.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
 svg:has(path[d^="M7.4 2A5.4 5.4 0 0 0 2"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/19b241eae0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2ce394107c.png") center / contain no-repeat !important;
     --plant-icon-on: 1;
 }
 
@@ -3028,6 +3052,12 @@ svg:has(path[d^="M10.57 4.01a6.97 6.97 "]):not(:has(mask, foreignObject, defs, c
     --plant-icon-on: 1;
 }
 
+svg:has(path[d^="M19.35 10.04C18.67 6.5"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/28c4456095.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
 svg:has(path[d^="M16 4h.5v-.5a2.5 2.5 0"]):has(path[d^="M13.58 3.23c.24-.33.16"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1da780efb3.png") center / contain no-repeat !important;
@@ -3145,6 +3175,12 @@ svg:has(path[d^="M4.46 5.03A4 4 0 0 1 8"]):not(:has(mask, foreignObject, defs, c
 svg:has(path[d^="M11.9 9.16c-.54 0-.98."]):has(path[d^="M20.3 5.41h-.38c-.84 0"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3048ac59a7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm5.7-"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9051358174.png") center / contain no-repeat !important;
     --plant-icon-on: 1;
 }
 
@@ -3316,6 +3352,12 @@ svg:has(path[d^="M2 2v20h20V2H2Zm16 8h-"]):has(path[d^="M10 18.33H8V18h2v.33ZM"]
     --plant-icon-on: 1;
 }
 
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm1.44"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fb41bc92fb.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
 svg:has(path[d^="M2.1 8.83C2.03 9.21 2 "]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f59b306583.png") center / contain no-repeat !important;
@@ -3325,6 +3367,12 @@ svg:has(path[d^="M2.1 8.83C2.03 9.21 2 "]):not(:has(mask, foreignObject, defs, c
 svg:has(path[d^="M3 4a2 2 0 0 0-2 2v12c"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/61769ffd01.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM7 11"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/718ab1aacc.png") center / contain no-repeat !important;
     --plant-icon-on: 1;
 }
 
@@ -5188,6 +5236,12 @@ svg:has(path[d^="M8.3 3.3a1 1 0 0 0 0 1"]):not(:has(mask, foreignObject, defs, c
     --plant-icon-on: 1;
 }
 
+svg:has(path[d^="M23 12a11 11 0 1 1-22 0 11 11 0 0 1 22 0Zm-9.5"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4410eaee13.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
 svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"]):has(path[d^="M20.76 12.57c.4.3 1.23"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d0e7bb4ce5.png") center / contain no-repeat !important;
@@ -5449,6 +5503,128 @@ svg:has(path[d^="M10.67 1.33a9.33 9.33 0 0 1 8.05 1"]):has(path[d^="M23 17.33a1 
 svg:has(path[d^="M23 12a11 11 0 1 1-22 0 11 11 0 0 1 22 0Zm-4.1"]):not(:has(mask, foreignObject, defs, clipPath, symbol, image))
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cf50a1a7c6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Mute"] svg:not(:has(foreignObject, image)),
+[aria-label="Unmute"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/227c9a63d0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Mute"][aria-checked="true"] svg:not(:has(foreignObject, image)),
+[aria-label="Unmute"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9be012839b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Deafen"] svg:not(:has(foreignObject, image)),
+[aria-label="Undeafen"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3592cd10a1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Deafen"][aria-checked="true"] svg:not(:has(foreignObject, image)),
+[aria-label="Undeafen"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b0a8965c1d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="User Settings"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/65e3dd9e1d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Disconnect"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9e22a646fd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label^="Noise Suppression"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/66935a3c1b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Turn Off Camera"] svg:not(:has(foreignObject, image)),
+section[class*="panels_"] [class*="actionButtons_"] > :nth-child(1) svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/143216951e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Turn On Camera"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7d0d5effdd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Share Your Screen"] svg:not(:has(foreignObject, image)),
+section[class*="panels_"] [class*="actionButtons_"] > :nth-child(2) svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/307b708edd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Stop Streaming"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/631bd62b33.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Start An Activity"] svg:not(:has(foreignObject, image)),
+[aria-label="Start an Activity"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ae72fb6705.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Open Soundboard"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1e7dcef5bb.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Show Chat"] svg:not(:has(foreignObject, image)),
+[aria-label="Hide Chat"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a4b2e79741.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Send a gift"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c7012dcd82.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Open GIF picker"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/dae3990c77.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Open sticker picker"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b8bd519b0c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Select emoji"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9e460676cc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+[aria-label="Apps"] svg:not(:has(foreignObject, image))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/57cec40740.png") center / contain no-repeat !important;
     --plant-icon-on: 1;
 }
 
