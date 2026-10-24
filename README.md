@@ -8,7 +8,7 @@
 <a href="https://github.com/pvrzz/plantism/stargazers"><img src="https://img.shields.io/github/stars/pvrzz/plantism?style=for-the-badge&logo=github&logoColor=1c2614&label=stars&labelColor=fdfd94&color=83c46c" alt="stars"></a>
 <a href="https://github.com/pvrzz/plantism/network/members"><img src="https://img.shields.io/github/forks/pvrzz/plantism?style=for-the-badge&logo=github&logoColor=1c2614&label=forks&labelColor=fdfd94&color=83c46c" alt="forks"></a>
 <a href="https://github.com/pvrzz/plantism/commits/main"><img src="https://img.shields.io/github/last-commit/pvrzz/plantism?style=for-the-badge&logoColor=1c2614&label=last%20watered&labelColor=fdfd94&color=83c46c" alt="last commit"></a>
-<img src="https://img.shields.io/badge/version-2.1.2-ff89be?style=for-the-badge&labelColor=fdfd94" alt="version">
+<img src="https://img.shields.io/badge/version-2.2.0-ff89be?style=for-the-badge&labelColor=fdfd94" alt="version">
 
 <br>
 
@@ -95,7 +95,7 @@ https://raw.githubusercontent.com/pvrzz/plantism/main/plantism.theme.css
 
 **🎨 look + feel**
 - two full palettes, auto-switching with discord's mode
-- ink-outlined, sticker-style icons that match the art
+- **650+ plant icons** replacing discord's own, glossy and ink-outlined with little sprouts, color-coded (pink for danger, butter for stars + gifts, lime for checks)
 - chunky cartoon buttons that press in when clicked
 - butter-yellow tooltips, petal-pink mentions + badges
 - paper grain texture instead of flat colors

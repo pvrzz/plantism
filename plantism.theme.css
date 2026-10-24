@@ -1,7 +1,7 @@
 /**
  * @name plantism
  * @author pvrz
- * @version 2.1.2
+ * @version 2.2.0
  * @description a storybook garden theme for discord. night garden in dark mode, sunlit meadow in light mode.
  * @website https://pvrz.lol
  * @source https://github.com/pvrzz/plantism
@@ -1530,6 +1530,3932 @@ div[class*="menu_"][class*="styleFlexible_"]
 [class*="tabBar_"] [class*="item_"][aria-selected="true"] *
 {
     color: var(--plant-ink) !important;
+}
+
+/* ==================== PLANT ICONS ==================== */
+@container style(--plant-icon-on: 1)
+{
+    path,
+    circle,
+    rect,
+    ellipse,
+    polygon,
+    line,
+    g
+    {
+        visibility: hidden !important;
+    }
+}
+
+[class*="sidebar_"] [class*="modeMuted_"] svg
+{
+    opacity: 0.5;
+}
+
+[class*="sidebar_"] [class*="modeSelected_"] [class*="link_"] svg,
+section[class*="title_"] [class*="toolbar_"] [class*="selected_"] svg
+{
+    filter: brightness(1.08) saturate(1.15) drop-shadow(0 0 4px rgba(220, 255, 92, 0.45));
+}
+
+button:disabled svg,
+[aria-disabled="true"] svg
+{
+    opacity: 0.5;
+}
+
+svg:has(path[d^="m2.7 22.7 20-20a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4ZM13.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7d0d5effdd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.62 17.03a9 9 0 1 1"]):not(:has(path:nth-of-type(2)))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/17e6262371.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.24 1.03a1 1 0 0 1 "]):has(path[d^="M15.14 20.14c1.78-1.78"]):has(path[d^="M7.05 3.32a1 1 0 0 1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1e7dcef5bb.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.5 11.87a1 1 0 0 1 1"]):has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm2 7a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/845463d057.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9Zm.46 1"]):has(path[d^="M11.45 8c.35 0 .6.35.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4c661ae8ee.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.62 2.08a1 1 0 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ee7aeac471.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9 22a1 1 0 0 1-1 1H2a"]):has(path[d^="M19 22a3 3 0 0 0 3-3V5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8011c100de.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m13.96 5.46 4.58 4.58a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2df1be7a95.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M24 5.7c0-1.54-.2-2.66"]):has(path[d^="M10.18 8h1.33c.27 0 .5.22.54.49.03.21.09.43.16.63.15.38-.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/013ba2f10f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.46 20.9a12.65 12.6"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a35b3ac5f7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14 3a1 1 0 0 1 1-1h6a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1eb2b3354c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.81 2.86c.38-1.15 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7d0be8b83c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17.5 3a4 4 0 0 1 4 4v"]):has(path[d^="M21 10a2 2 0 0 1 2 2v5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7d11317bd2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v8a3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9ed60f2f6e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 2a1 1 0 0 1 1 1v10"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/27ce5711e6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1 1 0 0 1 1 1v3."]):has(path[d^="M21 11.42V19a3 3 0 0 1-3 3h-2.75a.25.25 0 0 1-.25-.25V16a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v5.75c0 .14-.11.25-.25.25H6a3 3 0 0 1-3-3v-7.58c0-.18.2-.3.37-.24a4.46 4.46 0 0 0 4.94-1.1c.1-.12.3-.12.4 0a4.49 4.49 0 0 0 6.58 0c.1-.12.3-.12.4 0a4.45 4.45 0 0 0 4.94 1.1c.17-.07.37.06.37.24Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5d664e05ca.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.3385 7.6721L10.401"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b7af0848bb.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11 2a1 1 0 1 0-2 0v1H"]):has(path[d^="M22.77 22H20.5l-.99-2."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9a938b7826.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m7.7 16.95 3.68-6.76a1"]):has(path[d^="M13.8 6.86A2 2 0 1 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f0277ed48b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.56 11.77c.2-.1.44.02.44.23a4 4 0 1 1-4-4c.21 0 .33.25.23.44a2.5 2.5 0 0 0 3.32 3.32Z"]):has(path[d^="M22.89 11.7c.07.2.07.4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ae3cd2cea6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 20C16.4183 20 20 1"]):not(:has(circle)):not(:has(rect)):not(:has(ellipse)):not(:has(path:nth-of-type(2)))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/48f9c4181d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.23 18h-2.27l-.99-2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0e7420fdfa.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15 5a3 3 0 0 0-3-3 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/79514ab69c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.91 12.98a5.45 5.45"]):has(path[d^="M19.24 10.86c.32.16.72"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2775ec4adc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23c.08 0 .14-.08.1"]):has(path[d^="M18.09 14.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9Zm.46 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/55169b5332.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.45329 8.53891L3.262"]):has(path[d^="M14.4533 8.53891L9.262"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0ffe9cb977.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9 12a1 1 0 0 1 1 1v2a"]):has(path[d^="M2.75 3.02A3 3 0 0 1 5 2h10a3 3 0 0 1 3 3v7.64"]):has(path[d^="M15.3 16.7a1 1 0 0 1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cc01edaa94.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.8 3.75a5.98 5.98 0"]):has(path[d^="M14.7 10.7a1 1 0 0 0-1.4-1.4l-4 4a1 1 0 1 0 1.4 1.4l4-4ZM1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/64791c4c7c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.1 22.5c-1.8 0-3.3-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f15bd4de41.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.82 21.7c.17.05.14."]):has(path[d^="M21.66 8c.03 0 .05-.03.04-.06a3 3 0 0 0-.58-.82l-4.24-4.24a3 3 0 0 0-.82-.58.04.04 0 0 0-.06.04V5a3 3 0 0 0 3 3h2.66ZM"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/86aad0edb1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7 1a1 1 0 0 1 1 1v.75c0 .14.11.25.25.25h7.5c.14 0 .25-.11.25-.25V2a1 1 0 1 1 2 0v.75c0 .14.11.25.25.25H19a3 3 0 0 1 3 3 1 1 0 0 1-1 1H3a1 1 0 0 1-1-1 3 3 0 0 1 3-3h.75c.14 0 .25-.11.25-.25V2a1 1 0 0 1 1-1Z"]):has(path[d^="M2 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v9a3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d7653eb494.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 3a9 9 0 0 0-7.47 1"]):has(path[d^="M18.25 15.15c-.3.58-1."]):has(path[d^="M14.99 12.3c-.04.38-.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fd88a1a936.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m2.7 22.7 20-20a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4ZM10.8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9be012839b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 6a2 2 0 0 1-2 2H3a1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/afc8e7c18d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h6.49"]):has(path[d^="M19.91 14.63a1.06 1.06"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/594b8eaff1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19.12 2a.5.5 0 0 1 .4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/38dff4f14e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2C3.34315 2 2 3.343"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f1beaeb172.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.86 13.27a.89.89 0 0 1 1.28 0l.75.77a.9.9 0 0 0 .54.26l1.06.12c.5.06.85.52.8 1.02l-.13 1.08c-.02.2.03.42.14.6l.56.92c.27.43.14 1-.28 1.26l-.9.58a.92.92 0 0 0-.37.48l-.36 1.02a.9.9 0 0 1-1.15.57l-1-.36a.89.89 0 0 0-.6 0l-1 .36a.9.9 0 0 1-1.15-.57l-.36-1.02a.92.92 0 0 0-.37-.48l-.9-.58a.93.93 0 0 1-.28-1.26l.56-.93c.11-.17.16-.38.14-.59l-.12-1.08c-.06-.5.3-.96.8-1.02l1.05-.12a.9.9 0 0 0 .54-.26l.75-.77ZM16.48 13.71a1.1 1.1 0 0 1 2.04 0l.46 1.24c.19.5.57.88 1.07 1.07l1.24.46c.95.35.95 1.7 0 2.04l-1"]):has(path[d^="M19 1.61c3.04 0 4.51 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8f25819524.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.62 17.03a9 9 0 1 1"]):has(path[d^="M6 10a1 1 0 0 1 1-1h6a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9be8537479.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.54 3.28a3 3 0 0 0-."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e5916ebd1e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20 3a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h16ZM4 5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ad10cc9427.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 16V5.41l3.3 3.3a1 1 0 1 0 1.4-1.42l-5-5a1 1 0 0 0-1.4 0l-5 5a1 1 0 0 0 1.4 1.42L11 5.4V16a1 1 0 1 0 2 0ZM3 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/79ca645899.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1 5a1 1 0 0 1 1-1h20a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ce14d5ff18.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.2 22c.5-.01.66-.84"]):has(path[d^="M19.7 14.3a1 1 0 0 0-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/82c67c12f8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 7.83a3 3 0 1 0-2 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0d160ca4ac.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.02 1.36c.56-.48 1."]):has(path[d^="M11.36 6.3a1 1 0 0 1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/24253d95d2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1.59 3.78c.22-.66.98-"]):has(path[d^="M8.7 4.87a3.2 3.2 0 1 1 0 6.4 3.2 3.2 0 0 1 0-6.4Z"]):has(path[d^="M19 1a2.5 2.5 0 0 1 2."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5c9d390a16.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm6.81"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e5c0d8b547.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.3 7.3a1 1 0 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e742d94d41.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.41 8.09A2 2 0 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ed3a53deee.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.3 21.7a1 1 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2a7944a1c6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 4a1 1 0 0 0-1 1v14a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/705e5d9759.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20 3a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h16ZM5 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2f11002252.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM4 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM2 20a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM9 3a1 1 0 0 0 0 2h12a1 1 0 1 0 0-2H9ZM8 12a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1ZM9 19a1 1 0 1 0 0 2h12"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a5f0985368.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15 4a1 1 0 0 0-.95 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/76c4091016.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23c3 0 9-8.03 9-13"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/82052eea5c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m19.7.3 4 4a1 1 0 0 1 "]):has(path[d^="M12.62 2.05c.41.06.46."]):has(path[d^="M17.56 12.27a.63.63 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1683a9694c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 10.49V4a1 1 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d87236d2a5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3.3 15.7a1 1 0 0 0 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/85b5ecf174.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 1a1 1 0 0 1 1 1v.82"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/040d073ec4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 6c0-1.1.9-2 2-2h3a1 1 0 0 0 0-2H6a4 4 0 0 0-4 4v3a1 1 0 0 0 2 0V6ZM4 18c0 1.1.9 2 2 2h3a1 1 0 1 1 0 2H6a4 4 0 0 1-4-4v-3a1 1 0 1 1 2 0v3ZM2"]):has(path[d^="M5 7c0-1.1.9-2 2-2h2a2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cd3d9fcf15.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7 1a1 1 0 0 0-1 1v.2c"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/746bc96c6c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.5 18.08a.74.74 0 0"]):has(path[d^="M15.49 2.43c.34-.34.85"]):has(path[d^="M19.43 17.58a.74.74 0 "]):has(path[d^="M18.6 14.99a3.17 3.17 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0c6ba98fc1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.7 8.7a1 1 0 0 0-1."]):has(path[d^="M21.7 9.7a1 1 0 0 0-1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/90d2bf77a8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 4h.5v-.5a2.5 2.5 0"]):has(path[d^="M11 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1h-.06a1 1 0 0 1-.74-.32L5.92 17H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h2.92l4.28-4.68a1 1 0 0 1 .74-.32H11ZM20.5 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ca8395e625.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9 19a3 3 0 0 0 3 3 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bcadc789da.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.37 9.04c.25-.26.73"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0093d16d91.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.95 11.05a1 1 0 0 1"]):has(path[d^="M13.41 7.2c1.1.15 1.96"]):has(path[d^="M21.16 0a1.1 1.1 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3aa1ab7cf1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 10.1a2.92 2.92 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f68f97acab.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 2.81a1 1 0 0 1 0-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6d2de497ae.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5 5 0 0 1 2.14 3.08c.01.06.06.1.12.1ZM16.62 13.17c-.22.28-.6"]):has(path[d^="M14.97 20a1 1 0 0 1 .0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2f4d82f728.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.32 14.72a1 1 0 0 1"]):has(path[d^="M14.7 10.7a1 1 0 0 0-1.4-1.4l-4 4a1 1 0 1 0 1.4 1.4l4-4Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/973e656796.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.14 2.8a1.21 1.21 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/696c1d493d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.74 5.74a.5.5 0 0 0"]):has(path[d^="M2 10.5c0-.28.22-.5.5-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9f3f452347.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5 5 0 0 1 2.14 3.08c.01.06.06.1.12.1ZM18.4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b1db448c86.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17.34 11.06c-.18.28-."]):has(path[d^="M12 22a5.5 5.5 0 1 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/837a2f7f38.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.26 2.86c.38-1.15 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1252b8dd38.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Zm16 3a"]):has(path[d^="M13 19.5c0 .28.22.5.5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/307b708edd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14 10a1 1 0 1 1 0-2h3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2b5f18d2a3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M0 10C0 4.47716 4.4771"]):has(path[d^="M7 11.25C7.30378 11.25"]):has(path[d^="M6.625 9.25C7.24632 9."]):has(path[d^="M13.375 9.25C13.9963 9"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/657576bf1b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10 20C15.5228 20 20 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/47ed466e44.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.5605 11L11.2646 8."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6e774323c1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.5 3.33334V5H17.158"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7ca3717b16.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.33366 17.3333C6.958"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/88df4626cf.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 9H10V7H22V9ZM22 12"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/167e974990.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 4.5C12 3.67 11.33 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/dc1ef17a07.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Zm13.3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/64cdffd9a5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m17.58 11.07 1-1.37a1 "]):has(path[d^="M13.77 11.83a2 2 0 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/57cec40740.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m9.17 12.67 2.16 2.16a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c4e906daab.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/12860fc7c0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 9h1V6a5 5 0 0 1 10 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/223f26c8f8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 18a1 1 0 1 1 0 2H2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/081312657b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 3a1 1 0 0 1 1-1 19 "]):has(path[d^="M2 8a1 1 0 0 1 1-1 14 "]):has(path[d^="M3 12a1 1 0 1 0 0 2 7 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0cf989514e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 10a4 4 0 1 0 0-8 4"]):has(path[d^="M3 5v-.75C3 3.56 3.56 3 4.25 3s1.24.56 1.33 1.25C6.12 8.65 9.46 12 13 12h1a8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/73e7ba182d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1.23 21.13a1 1 0 0 1 0-1.41l7.48-7.47c.2-.2.51-.2.7 0l2.13 2.12c.2.2.2.5 0 .7l-7.48 7.48a1 1 0 0 1-1.41 0l-1.42-1.42ZM7.76 7.76l8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b49a4b0fce.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.35 19.44A4.75 4.75 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5dc6f66f03.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 0 1 9.16"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d837f03fb1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.62 17.03a9 9 0 1 1"]):has(path[d^="M11 7a1 1 0 1 0-2 0v2H"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a4168a9077.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17.05 8.76a4.7 4.7 0 "]):has(path[d^="M19.91 5.41c-.84 0-1.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/aeb5c514ce.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V8a3 3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bbb9c93140.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.25 1c.41 0 .75.34."]):has(path[d^="M5.06 7a1 1 0 0 0-1 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fe3cb02d08.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5 5 0 0 1 2.14 3.08c.01.06.06.1.12.1ZM16.62 13.17c-.22.29-.6"]):has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b81fb9c199.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.33 13.68c.41.27.93"]):has(path[d^="M3.93 13.84a.94.94 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1c133d7301.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.14.8a1.21 1.21 0 0 0-2.28 0l-.5 1.37a2 2 0 0 1-1.19 1.18l-1.38.51a1.21 1.21 0 0 0 0 2.28l1.38.5a2 2 0 0 1 1.18 1.19l.51 1.38a1.21 1."]):has(path[d^="M13.25 2c.17 0 .23.28."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b377e7956c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.3 5.41h-.39c-.84 0-1.52-.65-1.52-1.46v-.3c0-.9-.77-1.65-1.71-1.65H7.31c-.94 0-1.71.74-1.71 1.65v.3c0 .81-.68 1.46-1.52 1.46H3.7c-.94 0-1.7.73-1.7 1.64v3.52l.01.49c.05 3.11.94 4.69 2.92 6.63C6.72 19.46 11.58 22 11.99 22c.41 0 5.27-2.54 7.06-4.31 1.98-1.95 2.92-3.53 2.92-6.63L22 7.05c0-.9-.76-1.64-1.7-1.64Zm-7.48"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5de9e0dc2c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 8.63c0-.63.5-1.13 "]):has(path[d^="M19.7 21H4.13A3.34 3.3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2a67f0a825.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 4a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/20dead06fc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17.38 21c.61 0 1.23-."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1ccb5d3084.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.91 16.77c.62 0 1.1"]):has(path[d^="M17.22 1.9c2.05 0 4 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a92e0f55a3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.99 3.16A1 1 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a0aff3767d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.24 2a3 3 0 0 0-2.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d07907d23e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.65 6.35 9.29 8.71a"]):has(path[d^="M10.95 1.4a1.59 1.59 0 0 1 2.1 0l4.9 4A3.37 3.37 0 0 1 19 8v8c0 1.07-.4 2.06-1.05 2.6l-4.9 4c-.65.53-1.45.53-2.1 0l-4.9-4A3.37 3.37 0 0 1 5 16V8c0-1.07.4-2.06 1.05-2.6l4.9-4ZM7.3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3f4697e7cf.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.02 3.06a1.23 1.23 0 0 0-2.39-.6l-2.14 7.76-.61-.24.83-6.97a1.26 1.26 0 0 0-2.49-.34L8.13 9.65l-.47 2.86a.42.42 0 0 1-.8.1l-.66-1.47a3.92 3.92 0 0 0-1.85-1.9l-.32-.17a1.53 1.53 0 0 0-1.91.47.61.61 0 0 0-.05.65l1.33 2.5c.06.12.12.24.16.37l1.26 4.11a7.47 7.47 0 0 0 7"]):has(path[d^="M16 15a1 1 0 1 0 0 2h6"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cca2fdddff.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.14.8a1.21 1.21 0 0 0-2.28 0l-.5 1.37a2 2 0 0 1-1.19 1.18l-1.38.51a1.21 1.21 0 0 0 0 2.28l1.38.5a2 2 0 0 1 1.18 1.19l.51 1.38a1.2 1.2"]):has(path[d^="M12.98 2c.22 0 .32.4.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f82ba78812.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.71 9.1a2.06 2.06 0 "]):has(path[d^="M21 4a2 2 0 0 1 2 2v12"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3d719fccaa.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"]):has(path[d^="M16.83 12.93c.26-.27.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/95089a08e0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.4 2A5.4 5.4 0 0 0 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/19b241eae0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 22a9 9 0 0 0 7.03-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fccfda5a54.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.7 7.3a1 1 0 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/45a667917e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.02 3.06a1.23 1.23 0 0 0-2.39-.6l-2.14 7.76-.61-.24.83-6.97a1.26 1.26 0 0 0-2.49-.34L8.13 9.65l-.47 2.86a.42.42 0 0 1-.8.1l-.66-1.47a3.92 3.92 0 0 0-1.85-1.9l-.32-.17a1.53 1.53 0 0 0-1.91.47.61.61 0 0 0-.05.65l1.33 2.5c.06.12.12.24.16.37l1.26 4.11a7.47 7.47 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f827ce8b68.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 20.59V19.4a1 1 0 0 "]):has(path[d^="M8.23 10.23c.2.2.51.2."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a52ef92fd9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3.11 8H6v10.82c0 .86."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c61dfd821d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 6a1 1 0 1 0-2 0v5H"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6d54e11074.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m3.83 1.23.53 1.41 1.4"]):has(path[d^="M12 4a8 8 0 0 0-7.67 5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/142cc9b962.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.63 2.45a1.23 1.23 "]):has(path[d^="M15.46 15.46a5 5 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3d204bbec1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.75 7.57a5.12 5.12 "]):has(path[d^="M11.64.22c.3-.12.62-.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0a7536745a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.3 5.3a1 1 0 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4857526c08.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.06 7.61c-.25.95.31 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0d0e23d830.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.7 2.25A4.98 4.98 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2cbe142428.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 18a1 1 0 0 0-1 1 3 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d7834e461c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15 13a3 3 0 1 1-6 0 3"]):has(path[d^="M7.17 4.66A3 3 0 0 1 9"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9fa6e85e6a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m2.4 8.4 8.38-6.46a2 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/705fcc08af.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.53 22.99c.32-.02.5"]):has(path[d^="M15.3 15.3a1 1 0 0 1 1.4 0l2.3 2.29 2.3-2.3a1 1 0 0 1 1.4 1.42L20.42 19l2.3 2.3a1 1 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/11724460ce.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.1 8.85A.5.5 0 0 1 9"]):has(path[d^="M7 1a3 3 0 0 0-3 3v1.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/db69101cf5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.0652 10.5L16.6739 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6fb58c466d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7 2a1 1 0 0 0-1 1v18a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/66935a3c1b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.61 2.26c.25-.34.16"]):has(path[d^="M19.09.63a.97.97 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/732abf7c54.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.8 15.77c.7.43 1.2 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/44238b5252.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.94 22.7a11.02 11.0"]):has(path[d^="M13.27 21.34a7.7 7.7 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/183d735e98.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.45 1.85a3 3 0 0 0-4.1 1.1l-1.5 2.6a3 3 0 0 0 1.1 4.1l2.6 1.5a3 3 0 0 0 4.1-1.1l1.5-2.6a3 3 0 0 0-1.1-4.1l-2.6-1.5ZM2 5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5ZM2 16a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-3ZM19 14a1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8b9154f063.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.3 15.3a1 1 0 0 1 1.4 0l2.3 2.29 2.3-2.3a1 1 0 0 1 1.4 1.42L20.43 1"]):has(path[d^="m18.65 14.4-.53-.52a3 3 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d82361e45d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9 15H8v-4h1v4ZM12 11a"]):has(path[d^="M21.6 4c1.32 0 2.4.9 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bb76eef1de.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM22."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d45853a3b8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.14.8a1.21 1.21 0 0 0-2.28 0l-.5 1.37a2 2 0 0 1-1.19 1.18l-1.38.51a1.21 1.21 0 0 0 0 2.28l1.38.5a2 2 0 0 1 1.18 1.19l.51 1.38c."]):has(path[d^="M13.25 1.56c.3.24.23.7"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c3ec0a4eb7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M0 6c0-1.1 1.07-2 2.4-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ceb3d1160c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 14a2 2 0 1 0 0-4 2 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cf30d22d98.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.1 1a2.1 2.1 0 0 1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2589aa7d63.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19.38 11.38a3 3 0 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ca57b5ea80.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.86 13.27a.89.89 0 0 1 1.28 0l.75.77a.9.9 0 0 0 .54.26l1.06.12c.5.06.85.52.8 1.02l-.13 1.08c-.02.2.03.42.14.6l.56.92c.27.43.14 1-.28 1.26l-.9.58a.92.92 0 0 0-.37.48l-.36 1.02a.9.9 0 0 1-1.15.57l-1-.36a.89.89 0 0 0-.6 0l-1 .36a.9.9 0 0 1-1.15-.57l-.36-1.02a.92.92 0 0 0-.37-.48l-.9-.58a.93.93 0 0 1-.28-1.26l.56-.93c.11-.17.16-.38.14-.59l-.12-1.08c-.06-.5.3-.96.8-1.02l1.05-.12a.9.9 0 0 0 .54-.26l.75-.77ZM16.48 13.71a1.1 1.1 0 0 1 2.04 0l.46 1.24c.19.5.57.88 1.07 1.07l1.24.46c.95.35.95 1.7 0 2.05l-1"]):has(path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9ZM19 7a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cee5ad7b18.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.95 1.4a1.59 1.59 0 0 1 2.1 0l4.9 4A3.37 3.37 0 0 1 19 8v8c0 1.07-.4 2.06-1.05 2.6l-4.9 4c-.65.53-1.45.53-2.1 0l-4.9-4A3.37 3.37 0 0 1 5 16V8c0-1.07.4-2.06 1.05-2.6l4.9-4Z"]):not(:has(circle)):not(:has(rect)):not(:has(ellipse)):not(:has(path:nth-of-type(2)))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b440426f2f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 20a1 1 0 0 0-1 1v.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9183ed4513.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21 8.5a1 1 0 0 1-1 1H"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3bb53efb33.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6.94 12.1h-.83a.62.62"]):has(path[d^="M13.88 2.5a1.03 1.03 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e387bf4c05.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.00002 8.00033C7.306"]):has(path[d^="M15.3334 8.00033C15.33"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f1766e04bb.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12,5 L12,1 L7,6 L12,1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/eef594bae8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5 5 0 0 1 2.14 3.08c.01.06.06.1.12.1ZM20 1"]):has(path[d^="M14.29 16.09c.44-.11.7"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3f5a5b64fb.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.6 7.8 4 12l5.6 4.2a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/71942b7a59.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm2.18"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/dae3990c77.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 2h12a4 4 0 0 1 4 4v7.5a.5.5 0 0 1-.5.5H19a5 5 0 0 0-5 5v2.5a.5.5 0 0 1-.5.5H6a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4Zm.5 8a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm"]):has(path[d^="M21.66 16c.03 0 .05.03.04.06a3 3 0 0 1-.58.82l-4.24 4.24a3 3 0 0 1-.82.58.04"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3c1f78e47e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.94 19.06a1.5 1.5 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f64fdcd2c0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.23 12c0 1.29-.95 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/250272d424.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 16V5.41l3.3 3.3a1 1 0 1 0 1.4-1.42l-5-5a1 1 0 0 0-1.4 0l-5 5a1 1 0 0 0 1.4 1.42L11 5.4V16a1 1 0 1 0 2 0Z"]):has(path[d^="M4 15a1 1 0 0 1 1-1h2a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8bfdb33241.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm1-18"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/96ac0b5bea.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.3 14.3a1 1 0 0 1 1.4 0l4 4a1 1 0 1 1"]):has(path[d^="M15 3a6.01 6.01 0 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/346f501c14.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 4a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h16a3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/dfcaf41056.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.8 14.6c-.45.31-.9.6"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6f12633058.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14 4a5 5 0 0 1 5 5v.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d89f71954e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 12a8 8 0 0 1 14.93-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8c0923a307.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.04 20.25H7.12a3.5 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2fc944a1ec.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 0 0 22"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/29ca497765.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 5a3 3 0 0 1 3-3h12a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/96198413c7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.38 8.6A22.71 22.71"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5c3c48c353.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.7 8.68a.93.93 0 0 "]):has(path[d^="M9.76 7.12c.39-.42 1-."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f1fb190936.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 15a2.5 2.5 0 0 1 2"]):has(path[d^="M1.73 11.67a1 1 0 0 1 1.3-.13l9.55"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f6f8ed4c2a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7 2a1 1 0 0 0-2 0v3H2"]):has(path[d^="M9 7h6a2 2 0 0 1 2 2v6"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8ea3668c86.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 12a11 11 0 1 1-22 0 11 11 0 0 1 22 0Zm-2 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b2abe114f8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 4a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h11a3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/143216951e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.89 13.46a1 1 0 0 1-"]):has(path[d^="M12 21c5.52 0 10-1.86 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e8416f5df0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.65 1.51A2 2 0 0 0 6"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/42377f521d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.76 4.97a1 1 0 0 1-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/01cb434a4f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3.18 3.12c.49.24.73.7"]):has(path[d^="M8.7 4.87a3.2 3.2 0 1 1 0 6.4 3.2 3.2 0 0 1 0-6.4ZM1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8588a10fcd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15 2a3 3 0 0 1 3 3v12H5.5a1.5 1.5 0 0 0 0 3h14a.5.5 0 0 0 .5-.5V5h1a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h10Z"]):not(:has(circle)):not(:has(rect)):not(:has(ellipse)):not(:has(path:nth-of-type(2)))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/33b1109979.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.07 3.29 18.68 7h2."]):has(path[d^="M19 11.5a.5.5 0 0 0-.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1a715b81cf.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 8.5C4 4.36 7.58 1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/118a612312.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h9c.1"]):has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/24f99d01ea.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1h-.06a1 1 0 0 1-.74-.32L5.92 17H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h2.92l4.28-4.68a1 1 0 0 1 .74-.32H11ZM21.26"]):has(path[d^="M19 1.4c3.04 0 4.51 2.73 4.93 3.67.1.2.1.43 0 .64-.42.95-1.89 3.68-4.93 3.68s-4.51-2.73-4.93-3.68a.78.78 0 0 1 0-.64c.42-.94 1.89-3.68 4.93-3.68Zm.0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/567e029c01.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.02 2.84a1 1 0 0 1 1"]):has(path[d^="M19 1.61c3.05 0 4.52 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b6f2362912.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15 4v3.59l5.3-5.3a1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/79f5b129ab.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.4 8.63c0-.63.5-1.1"]):has(path[d^="M19.7 21H4.13A3.34 3.3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2417e0edbf.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 2a3 3 0 0 1 3 3v14"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/023a5632db.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19.61 18.25a1.08 1.08"]):has(path[d^="M16.83 15.23c.43.47 1."]):has(path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.33"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bb5957e76e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 2a1 1 0 0 0-1 1v6a1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cf8ca7a16b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.46 15.46a5 5 0 0 1"]):has(path[d^="M15 4a3 3 0 0 1 3 3v2."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/139ea4f06d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.5 13a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm11 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-9.8 1.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9e460676cc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m5.73 4.79.05.04 2.17-"]):has(path[d^="M8.98 10.58c-.3.65-.84"]):has(path[d^="M14.16 15.89c-.5 0-.94"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8c4c7d1b1c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.3 14.48c-.46.45-1."]):has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/723bdfbac4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19.33 13.01c.28-.03.5"]):has(path[d^="M11.8 2a10 10 0 0 1 9."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/356fab1e41.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3.3 11.3a1 1 0 0 0 0 1.4l5 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3094b803a1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 8v7.5a.5.5 0 0 1-.5"]):has(path[d^="M6 9a3 3 0 0 1 3-3h10a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ca8029c07b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.7 7.3a1 1 0 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b547273aab.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.04764 2.51881C2.283"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b451f83ddb.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 4a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v8.5a."]):has(path[d^="M14.02 15c-1.15 0-2.13"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/adc9631cc9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15 11a2 2 0 0 1-2-2V4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fdc69b7d0c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20 16.03v.17c-.05.38-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3670aa1321.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM11.53 11A9.53 9.53 0 0 0 2 20.53c0 .81.66 1.47 1.47 1.47h.22c.24 0 .44-.17.5-.4.29-1.12.84-2.17 1.32-2.91.14-.21.43-.1.4.15l-.26 2.61c-.02.3.2.55.5.55h6.4"]):has(path[d^="M23.7 17.7a1 1 0 1 0-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/30b658ece7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 5a1 1 0 1 0-2 0v6H"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/127bea5d3c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Zm5 2c0"]):has(path[d^="M13 19.5c0 .28.22.5.5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/49e1988667.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m12.5 20.96-1.02-2.58 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e3568957fc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.07 10.94a1.25 1.25 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/52bb01bac4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.55 14.4c.28.17.62."]):has(path[d^="M3.11 14.86a1 1 0 0 0-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d7d2ab7f1f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.414 2.58599C21.195"]):has(path[d^="M13.622 15.035L6.552 1"]):has(path[d^="M9.80801 10.365L12.636"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e580c07e8e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 5a1 1 0 0 0 0 2h7.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0bc95078c1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.55 2H5a3 3 0 0 0-3 "]):has(path[d^="M2.5 8a.5.5 0 0 0-.5.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a1cca3f6f8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9Zm.46 1"]):has(path[d^="M11 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1h-.06a1 1 0 0 1-.74-.32L5.92 17H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h2.92l4.28-4.68a1 1 0 0 1 .74-.32H11ZM20.5 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/949b8dfcf8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18 22H6a4 4 0 0 1-4-4"]):has(path[d^="M21.7 7.94c.01.03 0 .0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3ca0cbb400.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.27 12.38c.35.11.73"]):has(path[d^="M21.7 7.94c.01.03 0 .0"]):has(path[d^="M21.76 14.83a5.02 5.02"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3d1f9b3ef6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 13a1 1 0 0 1 1-1 9 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f07a49772e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b04af0f97a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.41 3.59 11.6 2.4a2"]):has(path[d^="M16.99 12.43c-.21.2-.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b719e0651f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 7a1 1 0 0 0 0 2 12 "]):has(path[d^="M3 12a1 1 0 1 0 0 2 7 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/85e1171341.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 22h12a4 4 0 0 0 4-4"]):has(path[d^="M21.66 8c.03 0 .05-.03.04-.06a3 3 0 0 0-.58-.82l-4.24-4.24a3 3 0 0 0-.82-.58.04.04 0 0 0-.06.04V5a3 3 0 0 0 3 3h2.66Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/66ed251053.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1.71 7.8c-.5.12-.8.62"]):has(path[d^="M22.97 5.7c.12-.5-.18-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c75d914b93.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10 4a2 2 0 1 0 4 0 2 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a1093abffc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.41 5.41A2 2 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/75a598ae15.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v8.03"]):has(path[d^="M16 18h.5v-.5a2.5 2.5 0 0 1 5 0v.5h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1Zm4-.5v.5h-2v-.5a1 1 0 1 1 2 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3c215820e1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM15.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f1d73542bf.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.02 1.36c.56-.48 1."]):not(:has(path:nth-of-type(2)))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f6d4d7469d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 22a10 10 0 1 0-8.45-4.64c.13.19.11.44-.04.61l-2.06 2.37A1 1 0 0 0 2.2 22H12Z"]):not(:has(circle)):not(:has(rect)):not(:has(ellipse)):not(:has(path:nth-of-type(2)))
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a4b2e79741.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.16 4.06a2.13 2.13 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/436dd18994.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23C18.0751 23 23 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a0b58d7807.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3.3 11.3a1 1 0 0 0 0 1.4l8 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c02594ed05.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-2.0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/91306eb8f2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.7 12.7a1 1 0 0 0 0-1.4l-8-8a1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/200fbd7b33.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 19V5a3 3 0 0 1 3-3h"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8d6df60cf8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 22a10 10 0 1 0-8.45-4.64c.13.19.11.44-.04.61l-2.06 2.37A1 1 0 0 0 2.2 22H12Zm2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5b1e99e512.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6.6 10.02 14 11.4a.6."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/32704a76f5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 8.07 10.6 6.7A5 5 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5bc9e5b63e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.3 15.3a1 1 0 1 1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ee09a21744.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 6a4 4 0 1 1-8 0 4 "]):has(path[d^="M19 24a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm1-7a1 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9f2c3b22c9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a1 1 0 0 1 1 1v2a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2983f90530.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.5 21.7a8.95 8.95 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/409a2742e0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.5 11.73c0-1.22.84-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/09a9086b4e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.66 21.98c.4-.03.56"]):has(path[d^="M23.7 17.7a1 1 0 0 0-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3b99e4aa45.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"]):has(path[d^="M22 13.67c0 .12-.33.17-.39.06A2.87 2.87 0 0 0 19 12a3 3 0 0 0-3 3v.5a.5.5 0 0 1-.5.5H15a3 3 0 0 0-3 3c0 1.2.7 2.1 1.73 2.61.11.06.06.39-.06.39H5a3 3 0 0 1-3-3v-"]):has(path[d^="M7 1a1 1 0 0 1 1 1v.75c0 .14.11.25.25.25h7.5c.14 0 .25-.11.25-.25V2a1 1 0 1 1 2 0v.75c0 .14.11.25.25.25H19a3 3 0 0 1 3 3 1 1 0 0 1-1 1H3a1 1 0 0 1-1-1 3 3 0 0 1 3-3h.75c.14 0 .25-.11.25-.25V2a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/057eadc774.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.57 4.01a6.97 6.97 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b29b147815.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 4h.5v-.5a2.5 2.5 0"]):has(path[d^="M13.58 3.23c.24-.33.16"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1da780efb3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 3a9 9 0 0 0-8.95 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3592cd10a1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 6a4 4 0 0 1 4-4h.09"]):has(path[d^="M3 20c0 1.1.9 2 2 2h5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c7012dcd82.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3.88 2.95c2.21-1.8 5."]):has(path[d^="M16.03 16.68a.35.35 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c4b6b763cf.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12,0 C12.8284271,0 14"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4536a16f98.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.93 15.17a5.95 5.95"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/29dba46562.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.55 10.88a2 2 0 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2732cd820b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17.93 1.51a.74.74 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c1bbe441aa.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 5a3 3 0 0 1 3-3h10a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c0a60ab497.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m19.03 11.78-1.38 1.93"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ba5b675f1c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM4.5 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6ba9ffa754.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.76.83a5.02 5.02 0 "]):has(path[d^="M12.38 1c.38.02.58.45."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b0a8965c1d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15 2a3 3 0 0 1 3 3v12H5.5a1.5 1.5 0 0 0 0 3h14a.5.5 0 0 0 .5-.5V5h1a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h10Zm"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1669863d49.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.52 13.17c-.2.41-.8"]):has(path[d^="M15.56 11.77c.2-.1.44.02.44.23a4 4 0 1 1-4-4c.21 0 .33.25.23.44a2.5 2.5 0 0 0 3.32 3.32ZM19 14"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2bae5a6c97.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 16a1 1 0 0 1-1-1v-5"]):has(path[d^="M6 18a4 4 0 0 0 4 4h8a"]):has(path[d^="M21.73 12a3 3 0 0 0-.6"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0369294635.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v.18a1"]):has(path[d^="M8 11a3 3 0 0 1 3-3h8a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/18696b95b9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/65e3dd9e1d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 18a4 4 0 0 0 4 4h7."]):has(path[d^="M21.66 8c.03 0 .05-.03.04-.06a3 3 0 0 0-.58-.82l-4.24-4.24a3 3 0 0 0-.82-.58.04.04 0 0 0-.06.04V5a3 3 0 0 0 3 3h2.66ZM"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f592276dc4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4.46 5.03A4 4 0 0 1 8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/68abdb08f3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.9 9.16c-.54 0-.98."]):has(path[d^="M20.3 5.41h-.38c-.84 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3048ac59a7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.45 1.85a3 3 0 0 0-4.1 1.1l-1.5 2.6a3 3 0 0 0 1.1 4.1l2.6 1.5a3 3 0 0 0 4.1-1.1l1.5-2.6a3 3 0 0 0-1.1-4.1l-2.6-1.5ZM5 2a3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3c45cdeb41.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm12.7"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d0bdc01d2d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.7 2.3a1 1 0 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/44277d4006.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.1 12a3 3 0 0 0 0 4."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/39f76b8df4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 5c0-1.1.9-2 2-2h16a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c2bbf76cdc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4.5 5.04A3 3 0 0 0 2 "]):has(path[d^="M7 5a1 1 0 0 1 1-1h1c."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/703061f5b4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 4a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v16a3 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/380c658711.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.5 10c.28 0 .5.22.5.5V19a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-8.5c0-.28.22-.5.5-.5h19Zm-8.3"]):has(path[d^="M6.72 3.05a.5.5 0 0 1 .54.71L5.14 8.2a.5.5 0 0 1-.37.27l-2.2.4A.5.5 0 0 1 2 8.45l-.26-1.48A3 3 0 0 1 4.17 3.5l2.55-.45ZM14.6 1.67a.5.5 0 0 1 .53.7l-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/22a0d74515.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16h-5a2 2 0 0 0-2 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/807f44f11f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 3a1 1 0 0 1 1-1c6.9"]):has(path[d^="M18.09 14.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9Zm.46 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/011c418b97.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6.69 2A3 3 0 0 0 3.7 "]):has(path[d^="M15 13v1a1 1 0 1 0 2 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b9bf85ef6a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.07 9.4a.6.6 0 0 0-"]):has(path[d^="M14 0h-4v2H8v2h1v1.51A"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/529ee771ba.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 5.5c0-.28-.23-.5-.5"]):has(path[d^="M17 5.5V6a1 1 0 0 1-1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d3bf385fd6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 3a1 1 0 1 0-2 0v8H"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/491ea05ac7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21 2a1 1 0 0 1 1 1v6a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3616a6b20a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.55 4.4c.13-.24.1-."]):has(path[d^="M12 10.2c0 .14.07.28.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5a779fde8b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.93 21.96c.25-.03.4"]):has(path[d^="M18 17h-1.24a3 3 0 1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a9bf7cb3b9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.76.83a5.02 5.02 0 "]):has(path[d^="M12 2c.33 0 .51.35.4.6"]):has(path[d^="M17.55 12.29c.1-.23.33"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/91dac868b2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.7 3.3a1 1 0 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/439ffe707f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 4h.5v-.5a2.5 2.5 0"]):has(path[d^="M12.33 5.74a.5.5 0 0 1"]):has(path[d^="M2 10c0-1.1.9-2 2-2h.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6187412ac9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 4a1 1 0 0 1 1-1h18a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/12f7aca1cb.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9 9V7h2v2H9ZM13 9v2h-"]):has(path[d^="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Zm3 0h2"]):has(path[d^="M13 19.5c0 .28.22.5.5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/80d5621d83.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 5a3 3 0 0 1 3-3h3.9"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/623d23bd4e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.02 13.43c-.25.1-.5"]):has(path[d^="M23.66 16.47c.13.57.34"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6fc927800c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9 10a1 1 0 0 1 1 1v2a"]):has(path[d^="M13 1a9 9 0 0 1 9 9v8a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f2b0d2590a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 4a3 3 0 1 1-5.98-.31c.03-.35-.21-.69-.56-.69H7a3 3 0 0 0-3 3v2.5c0 .28-.23.5-.5.54a3 3 0 0 0 0 5.92c.27.04.5.26.5.54V18a3 3 0 0 0 3 3h12a3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/39041e81fe.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.97 4.06c0 .18.08.3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bcaac95172.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 2v20h20V2H2Zm16 8h-"]):has(path[d^="M10 18.33H8V18h2v.33ZM"]):has(path[d^="M14 10h-4v.33h4V10ZM10"]):has(path[d^="M18 10h-4v.33h4V10ZM14"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2ddce823b5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.1 8.83C2.03 9.21 2 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f59b306583.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 4a2 2 0 0 0-2 2v12c"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/61769ffd01.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.25 2A3.25 3.25 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d982246fd8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.7 20.7a1 1 0 0 1-1.4 0l-5-5a1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/99a5c46477.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.76 20.14c.12-.12.3"]):has(path[d^="M1.22 1c.03 0 .08.01.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/43ea57ed2e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.26 12.45c.1.03.18.0"]):has(path[d^="M7.45 2.53A1.5 1.5 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c13e873bce.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m15.93 3.04-1.82 1.83-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/44a9791be6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.87 8.42h1.95V10h-5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e1118b910b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3.3 8.3a1 1 0 0 1 1.4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d6079787ca.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4.6 4.52A3 3 0 0 1 7."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/227375a920.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20 3a3 3 0 0 1 3 3v9."]):has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c235d5af22.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a1 1 0 0 1 1 1v20"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d099018123.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 6c0-1.1.9-2 2-2h3a1 1 0 0 0 0-2H6a4 4 0 0 0-4 4v3a1 1 0 0 0 2 0V6ZM4 18c0 1.1.9 2 2 2h3a1 1 0 1 1 0 2H6a4 4 0 0 1-4-4v-3a1 1 0 1 1 2 0v3ZM1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a88b5c9a15.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.05 1.4a1.59 1.59 0 0 0-2.1 0l-4.9 4A3.37 3.37 0 0 0 5 8v8c0 1.07.4 2.06 1.05 2.6l4.9 4c.65.53 1.45.53 2.1 0l4.9-4A3.37 3.37 0 0 0 19 16V8c0-1.07-.4-2.06-1.05-2.6l-4.9-4ZM12 3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c6871dc7f3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10 3.1a2.37 2.37 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5820c7953c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.46 8.64a1 1 0 0 1 1"]):has(path[d^="M15.55 5a5.5 5.5 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f199e7008d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.5 23c.88 0 1.7-.25"]):has(path[d^="M3 3a1 1 0 0 0 0 2h18a1 1 0 1 0 0-2H3ZM2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b4c41a2376.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7 4a1 1 0 0 0 0 2h9.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/acb655230f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 8a1 1 0 0 1 2 0v3.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4a82043748.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 3a3 3 0 0 0-3 3v9a3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e7dc29c74f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v8.67"]):has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5cd87b783d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.625 3H5.375C4.0651"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c6df98f230.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1 1 1 0"]):has(path[d^="M11 8a3 3 0 0 0-3 3v8a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/119696cc59.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.7 12a5.6 5.6 0 0 1"]):has(path[d^="M11 2c.52 0 1.02.04 1."]):has(path[d^="M19 1.39c3.05 0 4.52 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1ea1c261e8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.7 3.3a1 1 0 0 0-1.4 0l-8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9531ff034a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 15.5V6a3 3 0 0 1 3-"]):has(path[d^="M15 11c0-1.1.9-2 2-2h4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ac5e4cc1ad.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.00168 1.08381C7.001"]):has(path[d^="M7.00159 9.81428C7.001"]):has(path[d^="M10.9162 7.10561C11.51"]):has(path[d^="M2.18573 7.04555C2.784"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8b71c406f3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4.59185 1.69642L1.320"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4649539e65.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 4v1.51a6 6 0 0 1-1.76 4.25l-4.1 4.1a.5.5 0 0 0-.14.35v1.29a."]):has(path[d^="M9 19a1 1 0 0 0-1-1H7a1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1 3 3 0 0 0-3 3v3a1 1 0 0 0 1 1h3a3 3 0 0 0 3-3ZM"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/15aef1fbff.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.65 21.75a1 1 0 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1ccda5acda.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.79 20.97a1 1 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0502d99d3c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 4h.5v-.5a2.5 2.5 0"]):has(path[d^="M12.5 8c.28 0 .5.22.5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b49c0a4c45.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 4a2 2 0 1 0 4 0 2 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fc44fce84a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 14a2 2 0 1 0 0-4 2"]):has(path[d^="M19.5 15.46a13.2 13.2 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4be7855bcf.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19.56 2a3 3 0 0 0-2.4"]):has(path[d^="M2 10c0-1.1.9-2 2-2h.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f92b30fe6d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1 1 0 0 0-1.4-1.4l-20 20ZM3.13"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c773a8384d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9Zm.46 1"]):has(path[d^="M14.8 3.34a.48.48 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e4117a3730.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.25 3.35C7.87 2.45 6"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3b583ad6ae.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.7 2.89c.18-.07.32-."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6ec35e85b8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 5a1 1 0 0 1-1 1h-8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0bb999ab99.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.23 2a4.3 4.3 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/83666f2c30.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5,3 C5,3 5,6.1325704 "]):has(path[d^="M3,5 C3,5 3,8.1325704 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c7be6e48d8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 14C7.289 14 4 16.4"]):has(path[d^="M18 6H17.91C17.432 3.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d6241f45ec.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m5.41667 4.2625 5.6657"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/14ab4eaa68.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.84 21.32a.5.5 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c3eb83951c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.84 6.03a.57.57 0 0"]):has(path[d^="M22 11.5a.5.5 0 0 0-.5"]):has(path[d^="M2 10c0-1.1.9-2 2-2h.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ccaf928be4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.46 6.06c.3-.1.63.1"]):has(path[d^="M4.5 8.01c.28 0 .5.23."]):has(path[d^="M19 0a5 5 0 1 1 0 10 5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1d0b811c2f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.7 21.7a1 1 0 0 1-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3426475965.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.3 16.7a1 1 0 0 1 0-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/750cd085c8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.7 16.7a1 1 0 0 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/66e9802789.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.3 2.3a1 1 0 0 1 1.4 0l5 5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a8bd446748.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.7 20.7a1 1 0 0 1-1.4 0l-8-8a1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f3f91c1e61.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.3 7.7a1 1 0 0 1 0-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f66adbaeda.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4.23 9.3A.94.94 0 0 1"]):has(path[d^="M13.04 1.7a.9.9 0 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b93d4ab494.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19.94 7.03c.58-.28 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1d19797366.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.35 3A3 3 0 0 0 7.1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5c4b9ce950.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6.46 22a1 1 0 0 1-1-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4d42605b00.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6.9 5.08C8.97 6.64 11"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9514d2ec26.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.05 1.4a1.59 1.59 0 0 0-2.1 0l-4.9 4A3.37 3.37 0 0 0 5 8v8c0 1.07.4 2.06 1.05 2.6l4.9 4c.65.53 1.45.53 2.1 0l4.9-4A3.37 3.37 0 0 0 19 16V8c0-1.07-.4-2.06-1.05-2.6l-4.9-4ZM12 4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/af911edb37.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20 3a3 3 0 0 1 3 3v5."]):has(path[d^="M19 22a1 1 0 1 1 0 2 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3fe05652f2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v5.5"]):has(path[d^="M7 1a1 1 0 0 1 1 1v.75c0 .14.11.25.25.25h7.5c.14 0 .25-.11.25-.25V2a1 1 0 1 1 2 0v.75c0 .14.11.25.25.25H19a3 3 0 0 1 3 3 1 1 0 0 1-1 1H3a1 1 0 0 1-1-1 3 3 0 0 1 3-3h.75c.14 0 .25-.11.25-.25V2a1 1 0 0 1 1-1ZM1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/08f941f8c1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16a3 3 0 1 0 1.98 5.25 1 1 0 1 1 1.33 1.5A4.98 4.98 0 0 1 14 19a5 5 0 0 1 8-4 1 1 0 0 1 2 0v3a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h1.24a3 "]):has(path[d^="M19.95 16.15v.01l-.44-"]):has(path[d^="M22 11.82V10a1 1 0 0 0"]):has(path[d^="M8 2a1 1 0 1 0-2 0v.75"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4436ef1083.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.3 15.3a1 1 0 0 1 1.4 0l2.3 2.29 2.3-2.3a1 1 0 0 1 1.4 1.42L20.42 19l2.3 2.3a1 1 0 0 "]):has(path[d^="m18.65 14.4-.53-.52a3 3 0 1 "]):has(path[d^="M7 1a1 1 0 0 1 1 1v.75c0 .14.11.25.25.25h7.5c.14 0 .25-.11.25-.25V2a1 1 0 1 1 2 0v.75c0 .14.11.25.25.25H19a3 3 0 0 1 3 3 1 1 0 0 1-1 1H3a1 1 0 0 1-1-1 3 3 0 0 1 3-3h.75c.14 0 .25-.11.25-.25V2a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1882492de9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.62 4.51A2 2 0 0 1 1"]):has(path[d^="M4 10.35c-1.18.94-2 2."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e54702c8ea.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.9 2.17c0-1.22 1.65"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5cf7572038.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 3a1 1 0 0 0 0 2h18a1 1 0 1 0 0-2H3ZM15 18a1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/306bb60d82.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 3a1 1 0 0 0 0 2h18a1 1 0 1 0 0-2H3ZM19 16a3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/20d2d45080.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v6.88"]):has(path[d^="M19 24a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a6a287555b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 12a10 10 0 0 1-10 10H2.2a1 1 0 0 1-.75-1.66l2.06-2.37a.52.52 0 0 0 .04-.61A10 10 0 1 1 22 12Zm-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/28d2bb1365.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 10a2 2 0 0 1-2.75 "]):has(path[d^="M12 22a10 10 0 1 0-8.45-4.64c.13.19.11.44-.04.61l-2.06 2.37A1 1 0 0 0 2.2 22H12Zm6"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0b1cde575c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.2 22c.5-.01.67-.84"]):has(path[d^="M15 18a1 1 0 1 0 0 2h8a1 1 0 1 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7f7fc90a25.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 2a10 10 0 0 1 10 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/af190cfe68.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16A3 3 0 1 0 21 21.25a1 1 0 1 "]):has(path[d^="M22 12c0 .1-.06.2-.16."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/22d3a5672c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 22c.32 0 .52-.33.4"]):has(path[d^="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Zm-5-3a1 1 0 0 1 1 1v1.59l.7.7a1 1 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/71d69aaf1c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.5 10c.28 0 .5.22.5.5V19a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-8.5c0-.28.22-.5.5-.5h19Zm-10."]):has(path[d^="M6.72 3.05a.5.5 0 0 1 .54.71L5.14 8.2a.5.5 0 0 1-.37.27l-2.2.4A.5.5 0 0 1 2 8.45l-.26-1.48A3 3 0 0 1 4.17 3.5l2.55-.45ZM14.6 1.67a.5.5 0 0 1 .54.7l-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7d1b13d5a3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21 2a2 2 0 0 1 2 2v16"]):has(path[d^="M11.09 8.63a.97.97 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2b06755cd5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm2.03"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c78d8774cd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 4a1 1 0 0 1 1 1v14"]):has(path[d^="M8.78 16.15a3.16 3.16 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5c54ad49c4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.3 2.3a1 1 0 0 1 1.4 0L12 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/58bc95fb28.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3.75 5c.14 0 .25-.11."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/896f1d8e47.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.7 5.3a1 1 0 0 1 0 "]):has(path[d^="M18.7 5.3a1 1 0 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1732f77375.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.56 9.63 12.8 13.9a"]):has(path[d^="M6.98 18.98a.48.48 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3245da43d9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.39 17.4a1 1 0 0 1 "]):has(path[d^="M7.43 1.98A11 11 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/04522f5fa8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 12A11 11 0 1 1 2.74 6.06l-.78-2.87a1 1 0 0 1 1.23-1.23l2.87.78a10.95 10.95 0 0 1 11.88 0l2.87-.78a1 1 0 0 1 1.23 1.23l-.78 2.87A10.95 10.95 0 0 1 23 12Zm-6.5 3a1.5 1.5 0 0 0 .86-2.73l.96-.32a1 1 0 0 0-.64-1.9l-3 1a1 1 0 0 0 .4 1.95 1.5 1.5 0 0 0 1.42 2ZM6 13.5a1.5 1.5 0 1 0 2.91-.5 1 1 0 0 0 .4-1.95l-3-1a1 1 0 1 0-.63 1.9l.96.32A1.5 1.5 0 0 0 6 13.5Zm4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2a16b2188f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm2.95"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/42b616aebd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22Zm0 9c-"]):has(path[d^="M12 12c1.04 0 1.9 1.19"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c6d6b8eaba.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM7.5 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ed88ac81b4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.5 15.5a1 1 0 1 0 0 "]):has(path[d^="M22.41 15.55a11 11 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c44e0d8ed1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.45 9.1a1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0c63f39667.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.5 13a1.5 1.5 0 0 0 ."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1a20abad6a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.46 10c-3.69 0-6.8-2"]):has(path[d^="M15.54 12a9.3 9.3 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7b009c78d5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23c1.62 0 3.16-.35 4.55-.98A3.98 3.98 0 0 1 16 20c0-.63.19-1.28.35-1.75a13 13 0 0 1 1.51-2.96c.14-.2.33-.43.56-.64.11-.1.28-.24.5-.36a2.22 2.22 0 0 1 2.66.36 4.33 4.33 0 0 1 .8 1A11 11 0 1 0 12 23ZM6.5 13a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm11 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-9.8 3.83a"]):has(path[d^="M21.32 17.85C20.85 16."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7e606d7073.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-2.91-6.44"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3c206f05ca.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm2.5-5c.55 0 1.01-.46.86-.99a3.5 3.5 0 0 0-6.72 0c-.15.53.3.99.86.99h5Zm-4.93"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/26b6228e72.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 10c-.49 0-.92.3-1."]):has(path[d^="M20 9.5a2.5 2.5 0 1 1-"]):has(path[d^="M23 12a11 11 0 1 1-22 0 11 11 0 0 1 22 0ZM2 9."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a8ec05f806.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1c-.63 0-1.24.05-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ce0c0b826f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm2.5-9c.55 0 1.01.46.86.99a3.5 3.5 0 0 1-6.72 0c-.15-.53.3-.99.86-.99h5Zm-9.0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5b1661e2bc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm4.5-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6472df0a54.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-4-8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/898e50e4d0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23c2.02 0 3.92-.55"]):has(path[d^="M22 16.6c-.04.95-.8 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e20b641961.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23c.88 0 1.73-.1 2"]):has(path[d^="M15.65 20.66c-1.1.3-2."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/91e0373e90.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.1 19.45c-.6-.29-1."]):has(path[d^="M4 21.5c0-.56 1.6-1.04"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/61b5fdf012.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM5.7 9.3a1 1 0 0 0-1.4 1.4l.79.8-.8.8a1 1 0 1 0 1.42 1.4l.79-.79.8.8a1 1 0 0 0 1.4-1.42l-.79-.79.8-.8a1 1 0 0 0-1.42-1.4l-.79.79-.8-.8Zm9.6 0a1 1 0 0 1 1.4 0l.8.79.8-.8a1 1 0 1 1 1.4 1.42l-.79.79.8.8a1 1 0 0 1-1.42 1.4l-.79-.79-.8.8a1 1 0 0 1-1.4-1.42l.79-.79-.8-.8a1 1 0 0 1 0-1.4ZM12 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/25e77df257.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.5 13a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM19 11.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm-9.32"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/de300e5e60.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17.17 10.57c1.82-.35 "]):has(path[d^="m12.93 11.64 9.66 3.35"]):has(path[d^="M9.9 10.58a42.98 42.98"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fafa067b2c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 12v.3l-5.15 1.94A2"]):has(path[d^="m18 16.32 4.7-1.77c-.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c9233d198b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 12c0 2.25-.68 4.34"]):has(path[d^="M16 9a3 3 0 1 1 0 6 3 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9153e03edf.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22Zm0 12a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/73a0b15ea2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22Zm-5.5 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/dd0da14876.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-5.5-9a1.5 1.5 0 1 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2166038b7a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.42 20.93a10.95 10."]):has(path[d^="M4.51 19.09a1.93 1.93 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2c5c838892.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m9.97 18.67-.04-.01a2.27 2.27 0 0 0 4.14 0l-.04.01c.09-.2.15-.43.17-.66l.22-2.16a.77.77 0 0 0-.77-.85h-.2a.96.96 0 0 0-.92.66l-.2.6a.35.35 0 0 1-.66 0l-.2-.6a.96.96 0 0 0-.91-.66h-.21c-.46 0-.81.4-.77.85L9.8 18c.02.23.08.46.17.66Z"]):has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm4.43-10c.97 0 1.8.78 1.52 1.7-.3.98-.86 1.86-1.6 2.57l-.12 1a4.27 4.27 0 0 1-8.46 0l-.13-1a5.96 5.96 0 0 1-1.59-2.58C5.78 13.8 6.6 13 7.57 13h8.86Zm1.07-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fdbca01294.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.5 13a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm11 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-9.8 3.8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/837ad9e064.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22Zm0 15c"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/db826cf079.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.5 15.5a1 1 0 1 0 0 "]):has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM8 11"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c3ba8d0595.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22ZM8.31 14c-.81 0-1.5.65-1.27 1.41A5.15 5.15 0 0 0 12 19a5.15 5.15 0 0 0 4.96-3.59c.22-.76-.46-1.41-1.27-1.41H8.3ZM6.5 10a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/af785bc7b7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22ZM8.31 14c-.81 0-1.5.65-1.27 1.41A5.15 5.15 0 0 0 12 19a5.15 5.15 0 0 0 4.96-3.59c.22-.76-.46-1.41-1.27-1.41H8.3ZM6.5 8C5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c94eaf6c52.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm3.69"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c6b1fceef6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1c1.89 0 3.67.48 5"]):has(path[d^="M18 6c0-.59.42-1.68.9-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/afdd4900b4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-2.91-5.44"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8cdf44e139.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm5.5-10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ea625148ee.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4.99 20.47c.97.81 2.1"]):has(path[d^="M3.47 18.94A2 2 0 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d0cb5fa573.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm2.5-8.5c.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/27a04cc346.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22Zm-.5 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/67d55b84e8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.82 11.57a1 1 0 0 1-1.64-1.14 3.34 3.34 0 0 1 4.27-1.07 1 1 0 0 1-.9 1.78 1.38 1.38 0 0 0-1.73.43Zm11.75."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9a0af51c63.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.42 19.08c-.19.22-."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/56de101886.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m9.97 18.67-.04-.01a2.27 2.27 0 0 0 4.14 0l-.04.01c.09-.2.15-.43.17-.66l.22-2.16a.77.77 0 0 0-.77-.85h-.2a.96.96 0 0 0-.92.66l-.2.6a.35.35 0 0 1-.66 0l-.2-.6a.96.96 0 0 0-.91-.66h-.21c-.46 0-.81.4-.77.85L9.8 18c.02.23.08.46.17.66ZM6"]):has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm4.43-10c.97 0 1.8.78 1.52 1.7-.3.98-.86 1.86-1.6 2.57l-.12 1a4.27 4.27 0 0 1-8.46 0l-.13-1a5.96 5.96 0 0 1-1.59-2.58C5.78 13.8 6.6 13 7.57 13h8.86Zm-7.24-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/be6a500b01.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm3.5-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3211886684.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21 6h.23A11 11 0 0 0 "]):has(path[d^="M9 9.63V9a1 1 0 0 0-1-"]):has(path[d^="M12 11c-.47 0-.85.04-1"]):has(path[d^="M15 10v-.33l.01-.03H15"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7a44f52481.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.5 13a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM19 11.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM8 15a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6e780931c8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.76.75 1.51.41A1 1 0"]):has(path[d^="M1.47 8.81A11.03 11.03"]):has(path[d^="M20.5 11.5A2.5 2.5 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c3374e20ef.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.45 8.1a1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b448f20737.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm2.5-5c.55 0 1.01-.46.86-.99a3.5 3.5 0 0 0-6.72 0c-.15.53.3.99.86.99h5ZM5.1 9"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b5953deab1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.99 11.48a10.97 10."]):has(path[d^="m6.35 21.44.02.13a1.8 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/25a97b909a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM5.7 9.3a1 1 0 0 0-1.4 1.4l.79.8-.8.8a1 1 0 1 0 1.42 1.4l.79-.79.8.8a1 1 0 0 0 1.4-1.42l-.79-.79.8-.8a1 1 0 0 0-1.42-1.4l-.79.79-.8-.8Zm9.6 0a1 1 0 0 1 1.4 0l.8.79.8-.8a1 1 0 1 1 1.4 1.42l-.79.79.8.8a1 1 0 0 1-1.42 1.4l-.79-.79-.8.8a1 1 0 0 1-1.4-1.42l.79-.79-.8-.8a1 1 0 0 1 0-1.4Zm-6.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cc592b4b64.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1.84 4.08 9 .5a1.12 1"]):has(path[d^="M11.5 3.9c.84-.71 1.25"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9fb08652b9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.82 19.7c-.47.14-.8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4cfc8eaa97.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 8.5a.5.5 0 0 1-.5."]):has(path[d^="M21.5 11c.52 0 1-.16 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/79c05c9121.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.5 13a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm11 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/145f8c254d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23A11 11 0 0 0 22."]):has(path[d^="M2.58 6.31C4.51 7.32 8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a87e136c3e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 2.83c0-.63.15-1.22"]):has(path[d^="M21.2 18.03a1.31 1.31 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0fb55b03e5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 12A11 11 0 1 1 2.74 6.06l-.78-2.87a1 1 0 0 1 1.23-1.23l2.87.78a10.95 10.95 0 0 1 11.88 0l2.87-.78a1 1 0 0 1 1.23 1.23l-.78 2.87A10.95 10.95 0 0 1 23 12Zm-6.5 3a1.5 1.5 0 0 0 .86-2.73l.96-.32a1 1 0 0 0-.64-1.9l-3 1a1 1 0 0 0 .4 1.95 1.5 1.5 0 0 0 1.42 2ZM6 13.5a1.5 1.5 0 1 0 2.91-.5 1 1 0 0 0 .4-1.95l-3-1a1 1 0 1 0-.63 1.9l.96.32A1.5 1.5 0 0 0 6 13.5Zm3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8225f66b92.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.82 11.57a1 1 0 0 1-1.64-1.14 3.34 3.34 0 0 1 4.27-1.07 1 1 0 0 1-.9 1.78 1.38 1.38 0 0 0-1.73.43Zm2.27 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bfd18e1bb2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 12a11 11 0 1 1-22 0 11 11 0 0 1 22 0ZM6.87"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/91ba4e49c3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23c1.62 0 3.16-.35 4.55-.98A3.98 3.98 0 0 1 16 20c0-.63.19-1.28.35-1.75a13 13 0 0 1 1.51-2.96c.14-.2.33-.43.56-.64.11-.1.28-.24.5-.36a2.22 2.22 0 0 1 2.66.36 4.33 4.33 0 0 1 .8 1A11 11 0 1 0 12 23ZM6.5 13a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm11 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-9.8 1.17a"]):has(path[d^="M21.32 17.85C20.85 16."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/329c73a9b4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-5.5-9a1.5 1.5 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/80ad990b81.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 12c-1.04 0-1.9 1.1"]):has(path[d^="M23 12a11 11 0 1 1-22 0 11 11 0 0 1 22 0ZM5.1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/da3992c9f0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m9.97 18.67-.04-.01a2.27 2.27 0 0 0 4.14 0l-.04.01c.09-.2.15-.43.17-.66l.22-2.16a.77.77 0 0 0-.77-.85h-.2a.96.96 0 0 0-.92.66l-.2.6a.35.35 0 0 1-.66 0l-.2-.6a.96.96 0 0 0-.91-.66h-.21c-.46 0-.81.4-.77.85L9.8 18c.02.23.08.46.17.66Z"]):has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm4.43-10c.97 0 1.8.78 1.52 1.7-.3.98-.86 1.86-1.6 2.57l-.12 1a4.27 4.27 0 0 1-8.46 0l-.13-1a5.96 5.96 0 0 1-1.59-2.58C5.78 13.8 6.6 13 7.57 13h8.86ZM5.1 7.55a1 1 0 0 1 1.34-.44l3 1.5a1 1 0 0 1 0 1.78l-3 1.5a1 1 0 1 1-.9-1.78l1.21-.61-1.2-.6a1 1 0 0 1-.45-1.35Zm12"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/85e5aa45df.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm2.5-5c.55 0 1.01-.46.86-.99a3.5 3.5 0 0 0-6.72 0c-.15.53.3.99.86.99h5Zm-9.07"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9a5b99fb28.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22ZM6.5 13c.65"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3b94c3338a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm3.1-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/81b6d03c74.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm5.5-10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/60232e43f6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.93 18.66a2.27 2.27 "]):has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm4.43-10c.97 0 1.8.78 1.52 1.7-.3.98-.86 1.86-1.6 2.57l-.12 1a4.27 4.27 0 0 1-8.46 0l-.13-1a5.96 5.96 0 0 1-1.59-2.58C5.78 13.8 6.6 13 7.57 13h8.86ZM5.1 7.55a1 1 0 0 1 1.34-.44l3 1.5a1 1 0 0 1 0 1.78l-3 1.5a1 1 0 1 1-.9-1.78l1.21-.61-1.2-.6a1 1 0 0 1-.45-1.35ZM19"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/62b194bac3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm4.02"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/220506f93a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22Zm0 14a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/73b184eb9e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.85 16c-.46 0-.81.4"]):has(path[d^="M17.5 21.53a11 11 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/03780c8154.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm4.8 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d861c947d3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.24 3.17a1 1 0 1 1-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/11c944c275.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 16a2 2 0 1 1 4 0v4a2 2 0 1 1-4 0v-4ZM10 10a2 2 0 1 1 4 0v10a2 2 0 1 1-4 0V10ZM1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a12e499619.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.7 10a2 2 0 0 1 4 0v"]):has(path[d^="M1.7 16a2 2 0 1 1 4 0v"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2a1ca5dcb9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18 4a2 2 0 1 1 4 0v16"]):has(path[d^="M2 16a2 2 0 1 1 4 0v4a2 2 0 1 1-4 0v-4ZM10 10a2 2 0 1 1 4 0v10a2 2 0 1 1-4 0V10Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cbba1d8c06.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 6a3 3 0 0 0-3-3H4a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f2f564b442.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.04 12c-.37 0-.7.34-"]):has(path[d^="M8 9.94V10a4 4 0 0 0 8"]):has(path[d^="m9.2 3.86-.46-.17-.91-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2c619ba8ea.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.78 17.22c-.25.25-."]):has(path[d^="M9.2 3.86a1.21 1.21 0 "]):has(path[d^="M22.7 1.3a1 1 0 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e183939da5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 9a1 1 0 0 1 1 1 6 6 0 0 0 11.37"]):has(path[d^="M11.01 2.12c.54-.13.99"]):has(path[d^="M21.78 8.89a6.67 6.67 "]):has(path[d^="M17.67 8.89c0-1.23-1-2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/160c332a6a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.27 3.08a1.12 1.12 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3c1a42c961.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11 2.5a1 1 0 1 1 2 0v"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/12dfac3b61.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M24 12c0 1.2-1.95 2.1-"]):has(path[d^="M17.69 12A5.69 5.69 0 "]):has(path[d^="M13.87 12c0-1.79-.33-3"]):has(path[d^="M17.73 11.32v1.32H6.27"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/903ca20158.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22ZM8.23 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9377e17bc7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 2a1 1 0 0 0-2 0v19a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8b3fae7af3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"]):has(path[d^="M21.85 14.07c.12.36.54"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c85861a618.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16a3 3 0 1 0 1.98 5.25 1 1 0 1 1 1.33 1.5A4.98 4.98 0 0 1 14 19a5 5 0 0 1 8-4 1 1 0 0 1 2 0v3a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h1.24A3 3 0 0 0 19 16Z"]):has(path[d^="M12.45 16.53a.16.16 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cf586119e5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 11a1 1 0 1 0 0 2h20"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1b919dc25c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m11.4 11.54-8.34 8.8a2"]):has(path[d^="M19.83 10.04 15.77 7.7"]):has(path[d^="m11.47 12 4.32-4.28-9."]):has(path[d^="M3.08 3.69a2.2 2.2 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5144f8b3c5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 4c0-1.1.9-2 2-2h16a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b5aa7c7059.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5 5 0 0 1 2.14 3.08c.01.06.06.1.12.1ZM18.1"]):has(path[d^="M15 18a1 1 0 1 0 0 2h8a1 1 0 1 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8acc309a82.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5 5 0 0 1 2.14 3.08c.01.06.06.1.12.1ZM12.3"]):has(path[d^="M16 19a3 3 0 0 1 5.24-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f5c149bb14.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1.23 21.13a1 1 0 0 1 0-1.41l7.48-7.47c.2-.2.51-.2.7 0l2.13 2.12c.2.2.2.5 0 .7l-7.48 7.48a1 1 0 0 1-1.41 0l-1.42-1.42ZM7.76 4.93a2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bf4a6dac29.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1ZM1."]):has(path[d^="M21.3 13.07c.21.26.62."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/733c96eaad.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16a3 3 0 1 0 1.98 5.25 1 1 0 1 1 1.33 1.5A4.98 4.98 0 0 1 14 19a5 5 0 0 1 8-4 1 1 0 0 1 2 0v3a1 1 0 0 1-1 1h-3a1 1 0 0 1 0-2h1.24A3 3 0 0 0 19 16ZM1.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/97e0d4ad9a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.3 15.3a1 1 0 0 1 1.4 0l2.3 2.29 2.3-2.3a1 1 0 0 1 1.4 1.42L20.42 19l2.3 2.3a1 1 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7cd0b81b84.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.75 2a.75.75 0 0 0-."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0a841879b3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17.52 13.84c-.4.38-.9"]):has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm-.47"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2631934d83.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM15.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7aa95d11ab.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v4.7"]):has(path[d^="m22 14.75-3.33-3.34-3."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/302acfdf9f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 15h.25l.11.01a4.96"]):has(path[d^="M19 2a3 3 0 0 1 3 3v8."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/645bc45944.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7.28"]):has(path[d^="M21.61 24.04h2.3L20.11"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/aa49c403f8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.46 10.32v.03a2 2 0"]):has(path[d^="M11 0a1 1 0 0 0-1 1v1H"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a45f3d238c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 9a1 1 0 0 1 1 1 6 6 0 0 0 11.53"]):has(path[d^="M12 2c.86 0 1.65.27 2."]):has(path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9ZM19 7a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c7066f209b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.46 15.46a5 5 0 0 1"]):has(path[d^="M16 1c.34 0 .38.45.11."]):has(path[d^="M17.3 3.3a1 1 0 0 1 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d45b3393b2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h7.5a"]):has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3cd4783cbe.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h4.3c"]):has(path[d^="M18.06 14.57c-.02-.25."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b110a0b061.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3v"]):has(path[d^="M22 7a1 1 0 0 0-.3-.7l"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/53b65f5a41.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h2.5a"]):has(path[d^="M14 10a1 1 0 0 0-1 1v1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2c742da7f9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h3.67"]):has(path[d^="M14 17c0-1.1.9-2 2-2h3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2a6261411d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.3 6.3a1 1 0 0 1 1.4"]):has(path[d^="M8 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0062db5106.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 10a4 4 0 1 0 0-8 4"]):has(path[d^="M3 5v-.75C3 3.56 3.56 3 4.25 3s1.24.56 1.33 1.25C6.12 8.65 9.46 12 13 12h1c."]):has(path[d^="M19.87 21.73c.9-.7 3.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cb4f578980.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.35 7.24C15.9 6.67 16 5.8 16 5a3 3 0 1 1 3 3c-.8 0-1.67.09-2.24.65a1.5 1.5 0 0 0 0 2.11l1.12 1.12a3 3 0 0 1 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f1fb511f29.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.35 7.24C15.9 6.67 16 5.8 16 5a3 3 0 1 1 3 3c-.8 0-1.67.09-2.24.65a1.5 1.5 0 0 0 0 2.11l1.12 1.12a3 3 0 0 1 ."]):has(path[d^="M15 18a1 1 0 1 0 0 2h8a1 1 0 1 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d3218945b2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.35 7.24C15.9 6.67 16 5.8 16 5a3 3 0 1 1 3 3c-.8 0-1.67.09-2.24.65a1.5 1.5 0 0 0 0 2.11l.4.4.46.4"]):has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/43664dddf0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.35 7.24C15.9 6.67 16 5.8 16 5a3 3 0 1 1 3 3c-.8 0-1.67.09-2.24.65a1.5 1.5 0 0 0 0 2.11l.4.4.26.2"]):has(path[d^="M19 16a3 3 0 1 0 1.98 5.25 1 1 0 1 1 1.33 1.5A4.98 4.98 0 0 1 14 19a5 5 0 0 1 8-4 1 1 0 0 1 2 0v3a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h1.24A3 3 0 0 0 19 16Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c41db90e89.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m11.33 14.83-2.16-2.16a1 1 0 0 1-.25-.99l.75-2.57A3 3 0 0 1 11 7.4l8.05-4.91a1.8 1.8 0 0 1 2.47 2.47L16.61 13a3 3 0 0 1-1.72 1.32l-2.57.75a1 1 0 0 1-.99-.25ZM8.74 13.57c-.2-.2-.44-.36-.7-.43a4 4 0 0 0-5 4.42C3.14 18.23 2.68 19 2 19a1 1 0 1 0 0 2h5a4 4 0 0 0 3.86-5.03c-.07-.27-.23-.51-.43-.7l-1.7-1.7ZM15"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6fbffd5024.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m11.33 14.83-2.16-2.16a1 1 0 0 1-.25-.99l.75-2.57A3 3 0 0 1 11 7.4l8.05-4.91a1.8 1.8 0 0 1 2.47 2.47L16.61 13a3 3 0 0 1-1.72 1.32l-2.57.75a1 1 0 0 1-.99-.25ZM8.74 13.57c-.2-.2-.44-.36-.7-.43a4 4 0 0 0-5 4.42C3.14 18.23 2.68 19 2 19a1 1 0 1 0 0 2h5a4 4 0 0 0 3.86-5.03c-.07-.27-.23-.51-.43-.7l-1.7-1.7ZM19 14a1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/58bec38ffe.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m11.33 14.83-2.16-2.16a1 1 0 0 1-.25-.99l.75-2.57A3 3 0 0 1 11 7.4l8.05-4.91a1.8 1.8 0 0 1 2.47 2.47L16.61 13a3 3 0 0 1-1.72 1.32l-2.57.75a1 1 0 0 1-.99-.25ZM8.74 13.57c-.2-.2-.44-.36-.7-.43a4 4 0 0 0-5 4.42C3.14 18.23 2.68 19 2 19a1 1 0 1 0 0 2h5a4 4 0 0 0 3.86-5.03c-.07-.27-.23-.51-.43-.7l-1.7-1.7ZM19 16a3 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/94dcea43dd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h6.88"]):has(path[d^="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Zm-5-3a1 1 0 0 1 1 1v1.59l.7.7a1 1 0 1 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2ed36c3e4c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h7.5a"]):has(path[d^="M16 18h.5v-.5a2.5 2.5 0 0 1 5 0v.5h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1Zm4-.5v.5h-2v-.5a1 1 0 0 1 2 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/caf4a5d266.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6.3 2.55a.85.85 0 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3d50e9eb25.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.3 2.01c.24-.04.73."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7142b1413a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.25 3.5h.8l.73.01c.0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c51326a530.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM16.6"]):has(path[d^="M5.06 14.94c.17-.17.2-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fb59b0de2b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.32 2.27a1 1 0 1 1 1"]):has(path[d^="M8 10a6 6 0 0 1 12 0v1"]):has(path[d^="M16 11.17V10a2 2 0 1 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2ee90342dc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 12a11 11 0 1 1-22 0 11 11 0 0 1 22 0Zm-6.9"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/143408c272.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 4a3 3 0 1 1-5.98-.31c.03-.35-.21-.69-.56-.69H7a3 3 0 0 0-3 3v2.5c0 .28-.23.5-.5.54a3 3 0 0 0 0 5.92c.27.04.5.26.5.54V18a3 3 0 0 0 3 3h4.65c.43 0 .69-.55.54-.95A3 3 0 0 1 15 16h6.5a"]):has(path[d^="M15 18a1 1 0 1 0 0 2h8a1 1 0 1 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bc2675a7d0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 4a3 3 0 1 1-5.98-.31c.03-.35-.21-.69-.56-.69H7a3 3 0 0 0-3 3v2.5c0 .28-.23.5-.5.54a3 3 0 0 0 0 5.92c.27.04.5.26.5.54V18a3 3 0 0 0 3 3h4.65c.43 0 .69-.55.54-.95A3 3 0 0 1 15 16h.5a."]):has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/18df181cdc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13 7a3 3 0 0 0 2.98-3"]):has(path[d^="M19 16a3 3 0 1 0 1.98 5.25 1 1 0 1 1 1.33 1.5A4.98 4.98 0 0 1 14 19a5 5 0 0 1 8-4 1 1 0 0 1 2 0v3a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h1.24A3 3 0 0 0 19 16Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2669e30e5c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 6.4a.28.28 0 0 1 ."]):has(path[d^="M18 1a3 3 0 0 1 3 3v16"]):has(path[d^="M6.48 18.32a2 2 0 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ea154d7062.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.5 2c.3 0 .6.04.9.1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7ad9d353c2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 .1 0l"]):has(path[d^="M10.67 1.33a9.33 9.33 0 0 1 9.22 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/654fe7ba4a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 3a1 1 0 0 1 1-1h6a1"]):has(path[d^="M18 21a1 1 0 0 1-1 1h-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0792d449c6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6.23 2 2 17.77 17.77 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/35fb6d9f43.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.97 2.65c0-.76.4-1.5"]):has(path[d^="M18.3 14.3a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c0c9708344.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.92 2.08c-.07-.45.18"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/65516b26e5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.19.93."]):has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/21942f5969.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.52 2a3 3 0 0 0-2.89"]):has(path[d^="M20.35 12.13c.33.06.65"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1a59a51527.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1 1 0 0 1 1 1v4."]):has(path[d^="M21 11.42V19a3 3 0 0 1-3 3h-2.75a.25.25 0 0 1-.25-.25V16a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v5.75c0 .14-.11.25-.25.25H6a3 3 0 0 1-3-3v-7.58c0-.18.2-.3.37-.24a4.46 4.46 0 0 0 4.94-1.1c.1-.12.3-.12.4 0a4.49 4.49 0 0 0 6.58 0c.1-.12.3-.12.4 0a4.45 4.45 0 0 0 4.94 1.1c.17-.07.37.06.37.24ZM15 4a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/64d206c9ac.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 0a1 1 0 0 1 1 1v3h"]):has(path[d^="M14 2c.11 0 .11.13 0 ."]):has(path[d^="M21 11.42c0-.16-.2-.25"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9b63eab0ae.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h8.67"]):has(path[d^="M15 18a1 1 0 1 0 0 2h8a1 1 0 1 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/29257d1a89.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"]):has(path[d^="M22 13.67c0 .12-.33.17-.39.06A2.87 2.87 0 0 0 19 12a3 3 0 0 0-3 3v.5a.5.5 0 0 1-.5.5H15a3 3 0 0 0-3 3c0 1.2.7 2.1 1.73 2.61.11.06.06.39-.06.39H5a3 3 0 0 1-3-3V5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c23bf3de76.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16a3 3 0 1 0 1.98 5.25 1 1 0 0"]):has(path[d^="M22 11.82c0 .2-.14.4-.33.49h-.02a.58.58 0 0 1-.44.05 6.99 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0587f2d05c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3.86 8.86c1.78-1.78 5"]):has(path[d^="M21.76 14.83a5.03 5.03"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8e9b74ad19.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17.15 10.85c-.1.1-.16"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bae5b21965.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.56 11.77c.2-.1.44.02.44.23a4 4 0 1 1-4-4c.21 0 .33.25.23.44A"]):has(path[d^="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Zm10 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ebe8bccdb3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.24 13.2c.33.1.71-."]):has(path[d^="M12.59 16.03c.28.03.46"]):has(path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"]):has(path[d^="M17 15a2 2 0 0 0-2 2v4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7f0b2b4dc2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6.33 20.03c-.25.72.12"]):has(path[d^="M21.9 16c.21 0 .4-.13."]):has(path[d^="M16.83 15.23c.43.47 1."]):has(path[d^="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM15 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9380068018.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4.56 4.36A2.83 2.83 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d17ada595a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.29 15.9a.15.15 0 0"]):has(path[d^="M12.72 17.05c.3-.35.2-"]):has(path[d^="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM19 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5272a82777.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16a3 3 0 1 0 1.98 5.25 1 1 0 1 1 1.33 1.5A4.98 4.98 0 0 1 14 19a5 5 0 0 1 8-4 1 1 0 0 1 2 0v3a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h1.24A3 3 0 0 0 19 16ZM12."]):has(path[d^="M17.27 12.21A.22.22 0 "]):has(path[d^="M21.27 12.38A.4.4 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/74c834fbdc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 16c.16 0 .32 0 .48"]):has(path[d^="M12 1a11 11 0 0 1 10.9"]):has(path[d^="M12 5a7 7 0 0 1 6.97 7"]):has(path[d^="M12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6ZM19 15"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6316da1237.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 16a6 6 0 0 1 1.65."]):has(path[d^="M12 1a11 11 0 0 1 10.8"]):has(path[d^="M12 5c3.68 0 6.7 2.73 "]):has(path[d^="M12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z"]):has(path[d^="M18.09 14.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9ZM19 20a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-.45-3.5a.5.5 0 0 0-.5.55l.22 2.02c.01.16.17.26.33.23a1.93 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/436a044418.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.34 13.02c.31.03.63"]):has(path[d^="M12.6 16.03c.23.02.4.2"]):has(path[d^="M18.79 13.71c-.08.3-.4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2d5a4c3f81.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 2h12a4 4 0 0 1 4 4v7.5a.5.5 0 0 1-.5.5H19a5 5 0 0 0-5 5v2.5a.5.5 0 0 1-.5.5H6a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4Zm-.3 3."]):has(path[d^="M21.66 16c.03 0 .05.03.04.06a3 3 0 0 1-.58.82l-4.24 4.24a3 3 0 0 1-.82.58.04"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7ea04247a5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18 2H6a4 4 0 0 0-4 4v"]):has(path[d^="M15 18a1 1 0 1 0 0 2h8a1 1 0 0 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6f3a5088ee.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"]):has(path[d^="M21.6 13.54c.05.1.4.05"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b72bf3d93b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16a3 3 0 1 0 1.98 5.25 1 1 0 1 1 1.33 1.5A4.98 4.98 0 0 1 14 19a5 5 0 0 1 8-4 1 1 0 0 1 2 0v3a1 1 0 0 1-1 1h-3a1 1 0 1 1 0-2h1.24A3 3 0 0 0 19 16Z"]):has(path[d^="M22 11.82c0 .2-.14.4-.33.49h-.02a.58.58 0 0 1-.44.05 7 7 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7663cfc503.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 2h12a4 4 0 0 1 4 4v7.5a.5.5 0 0 1-.5.5H19a5 5 0 0 0-5 5v2.5a.5.5 0 0 1-.5.5H6a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4Zm11.5 8a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM5.1 "]):has(path[d^="M21.66 16c.03 0 .05.03.04.06a3 3 0 0 1-.58.82l-4.24 4.24a3 3 0 0 1-.82.58.05"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a3b106c99d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 2h12a4 4 0 0 1 4 4v7.5a.5.5 0 0 1-.5.5H19a5 5 0 0 0-5 5v2.5a.5.5 0 0 1-.5.5H6a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4Zm11.5 8a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-2.1"]):has(path[d^="M21.66 16c.03 0 .05.03.04.06a3 3 0 0 1-.58.82l-4.24 4.24a3 3 0 0 1-.82.58.04"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/96de5e9763.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9.12 1.88A3 3 0 0 1 1"]):has(path[d^="M13.12 5.88A3 3 0 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/408067fe76.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21 2a2 2 0 1 1-4 0 2 "]):has(path[d^="M10.18 8h1.33c.27 0 .5.22.54.49.03.21.09.43.16.63.15.39-.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/4229618657.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4.13 12.02a4 4 0 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/26e783fabd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 1.4a1 1 0 0 0 0 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/32a162eee9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16A3 3 0 1 0 21 21.25a1 1 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ffc30d62d9.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1.73 11.67a1 1 0 0 1 1.3-.13l8.84"]):has(path[d^="M19 15c3.04 0 4.51 2.7"]):has(path[d^="M5.51 10.03a1 1 0 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ebd37e3965.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm2 4a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/19d43d2d8c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7 8h3a1 1 0 1 0 0-2H7"]):has(path[d^="M19 4a1 1 0 0 1 1 1v14"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cda5e125a8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM11.53 11A9.53 9.53 0 0 0 2 20.53c0 .81.66 1.47 1.47 1.47h.22c.24 0 .44-.17.5-.4.29-1.12.84-2.17 1.32-2.91.14-.21.43-.1.4.15l-.26 2.61c-.02.3.2.55.5.55h7.6"]):has(path[d^="M24 17a1 1 0 1 0-2 0v3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/965baabc7b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 16a3 3 0 1 0 1.98 5.25 1 1 0 1 1 1.33 1.5A4.98 4.98 0 0 1 14 19a5 5 0 0 1 8-4 1 1 0 0 1 2 0v3a1 1 0 0 1-1 1h-3a1 1 0 0 1 0-2h1.24A3 3 0 0 0 19 16Z"]):has(path[d^="M16.08 11.7c.41.18.36."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3b83dd712d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 6a4 4 0 1 1-8 0 4 "]):has(path[d^="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8d68584795.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.47 11c1.56 0 3.03."]):has(path[d^="M19.91 14.63a1.06 1.06"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b6fc2da9f6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3Z"]):has(path[d^="M19.53 6.47a.75.75 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3dd04a4090.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 4a1 1 0 0 0 0 2h16a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8c10b2b8c3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.23 3.63a4.97 4.97 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/03c8611526.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM6.85"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/dccf80eb9f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1ZM5."]):has(path[d^="M11.65 17c.43 0 .69.55"]):has(path[d^="M17.12 12.66c.23-.18.3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e87174ac9b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.45 1.85a3 3 0 0 0-4.1 1.1l-1.5 2.6a3 3 0 0 0 1.1 4.1l2.6 1.5a3 3 0 0 0 4.1-1.1l1.5-2.6a3 3 0 0 0-1.1-4.1l-2.6-1.5ZM2 5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5ZM2 16a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-3ZM15 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/153193da54.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.45 1.85a3 3 0 0 0-4.1 1.1l-1.5 2.6a3 3 0 0 0 1.1 4.1l2.6 1.5a3 3 0 0 0 4.1-1.1l1.5-2.6a3 3 0 0 0-1.1-4.1l-2.6-1.5ZM2 5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5ZM2 16a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-3ZM19 16a3 3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7ac2d084b3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.94 5.94a1.5 1.5 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3e74f14b1b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.3 6.3a1 1 0 1 1 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c64ea7129a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6.99471698,9.67522659"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0b6f2fb0e1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.91 5C18.61 5 20 3."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/77116fad35.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17.3 18.7a1 1 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6ce7e37768.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.25 1H4.75V7.25H7.25"]):has(path[d^="M4.75 9.75C4.75 10.416"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/c9e1145ff7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.18 15."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/871df0f2bd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 11c6.07 0 11 1.38 "]):has(path[d^="M12 3c5.25 0 9.5 1.77 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/19076c71dd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 4v1.51a6 6 0 0 1-1.76 4.25l-4.1 4.1a.5.5 0 0 0-.14.35v3.74a3"]):has(path[d^="M9 19a1 1 0 0 0-1-1H7a1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1 3 3 0 0 0-3 3v3a1 1 0 0 0 1 1h3a3 3 0 0 0 3-3Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ae72fb6705.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4.45 6.9 5 6.61v4.88c"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a007df508b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M6 2h12a4 4 0 0 1 4 4v7.5a.5.5 0 0 1-.5.5H19a5 5 0 0 0-5 5v2.5a.5.5 0 0 1-.5.5H6a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4Zm.5 8a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM"]):has(path[d^="M21.66 16c.03 0 .05.03.04.06a3 3 0 0 1-.58.82l-4.24 4.24a3 3 0 0 1-.82.58.04"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b8bd519b0c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15.46 15.46a5 5 0 0 1"]):has(path[d^="M11.62 17c.34 0 .58.32"]):has(path[d^="M19 2a3 3 0 0 1 3 3v6."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/077f3d1c2e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm2.5-9c.55 0 1.01.46.86.99a3.5 3.5 0 0 1-6.72 0c-.15-.53.3-.99.86-.99h5ZM9.57"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e5f95f0c5e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 8a1 1 0 1 0-2 0v3."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0b7653b1b6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.94 21.06a1.5 1.5 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1390f17ced.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.92 14.08c.32.27.86"]):has(path[d^="M13.48 16.18c.39.1.45."]):has(path[d^="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"]):has(path[d^="M16.5 18H16a1 1 0 0 0-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/30ea274ff3.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M9 12a1 1 0 0 1 1 1v2a"]):has(path[d^="M2.75 3.02A3 3 0 0 1 5 2h10a3 3 0 0 1 3 3v7.5a"]):has(path[d^="M15 18.5V22a1 1 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0e306e51a6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M15 2a1 1 0 0 1 1-1h6a"]):has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-6a1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0b0aed3709.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7 3h10a4 4 0 0 1 4 4v"]):has(path[d^="M19 16h1.73a3 3 0 0 1-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f56807971c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 12.38c-.02.38-.45."]):has(path[d^="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/da1864f3c2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.52995 0.431867C6.27"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/5394d08965.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.5906 6.39993L9.192"]):has(path[d^="M13.4871 7.79985C13.48"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b67cc6fdfd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.3 23.7a1 1 0 0 0 1"]):has(path[d^="M15.31 16.02a3 3 0 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a2ba37bac1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19.06 6.94a1.5 1.5 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ede1a8c414.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16 0H2a2 2 0 0 0-2 2v"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d58ec10612.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M3 14a9 9 0 1 0 18 0c0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/076b45b103.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.3 1.3a1 1 0 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/335849d788.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 2a4 4 0 0 0-4 4v4a"]):has(path[d^="M6 10a1 1 0 0 0-2 0 8 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/227c9a63d0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 12a1 1 0 0 1-1 1H3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d920f7a686.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2.25,9 C2.25,10.6575 "]):has(path[d^="M8.25,12.75 L8.25,11.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fc925cfce2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM11.53 11A9.53 9.53 0 0 0 2 20.53c0 .81.66 1.47 1.47 1.47h.22c.24 0 .44-.17.5-.4.29-1.12.84-2.17 1.32-2.91.14-.21.43-.1.4.15l-.26 2.61c-.02.3.2.55.5.55h5.7"]):has(path[d^="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Zm-2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/801304a6a0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 4a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h8.5a"]):has(path[d^="M16 18h.5v-.5a2.5 2.5 0 0 1 5 0v.5h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1Zm4-.5v.5h-2v-.5a1 1 0 1 1 2 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e8b60a0831.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22 12a10 10 0 0 1-10 10H2.2a1 1 0 0 1-.75-1.66l2.06-2.37a.52.52 0 0 0 .04-.61A10 10 0 1 1 22 12ZM6."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/bf27be012e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.3 9.3a1 1 0 0 1 1.4"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7983af5467.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 1."]):has(path[d^="M19 24a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm1-4a1 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b853a4f420.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1.16 5.02c-.1.28.04.5"]):has(path[d^="M23 8.8a.5.5 0 0 0-.78"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/db839caafe.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 3v18M3 12h18M9 6l3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d3d42fc996.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10 4H5.5A1.5 1.5 0 0 "]):has(path[d^="M13 13v8l2.3-2.2 1.6 3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0f6d682f86.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.5 4.5 20 10l-8.5 8"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/585195baa2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11 3a1 1 0 1 1 2 0v2h"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/27ed0cb663.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.65 13.63c.1.17.35."]):has(path[d^="M21.7 7.94c.01.03 0 .0"]):has(path[d^="m14.13 21.52 3.96-6.9c"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/06c52b893e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm10 6"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e8b773d116.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.7 3.3a1 1 0 0 0-1.4 0l-5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/eb7d90247d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21 21.93V2.07a1 1 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/671aa27b5c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.89 11.79A3 3 0 1 0"]):has(path[d^="M11.91 16.43a.66.66 0 "]):has(path[d^="M12.11 17.46a4.13 4.13"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e4dee63cf2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 6.66659C9.47275 6.6"]):has(path[d^="M7.67717 7.33325C4.167"]):has(path[d^="M11.0366 11.5588C10.83"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/40b4daf41d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.3 3.3a1 1 0 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8aea5c7057.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"]):has(path[d^="M20.76 12.57c.4.3 1.23"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/d0e7bb4ce5.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.3 5.3a1 1 0 0 0 0 "]):has(path[d^="M5.3 5.3a1 1 0 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2a13f00877.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m18.01 4.79-.04.04-2.1"]):has(path[d^="M8.98 10.58c-.3.65-.84"]):has(path[d^="M14.16 15.89c-.5 0-.94"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2fa6766070.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.87 2.31A.5.5 0 0 1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2240dfd4bc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M13.19 2.5c.29-.24.35-"]):has(path[d^="m9.3 8.7 2.35-2.35c.2-"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/ed77d53c20.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.3 14.7a1 1 0 0 0 1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/6d56a14abe.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.48 13.71a1.1 1.1 0"]):has(path[d^="M18.72.56a2.5 2.5 0 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/53d74ee1c4.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.42 22a.9.9 0 0 1-.9"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a6a6d9f45f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 22a2 2 0 0 1-2-2V4c"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1d9aa6cb3e.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.53 11A9.53 9.53 0 "]):has(path[d^="M15 18a1 1 0 1 0 0 2h8a1 1 0 0 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/8049f1cd1f.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5ZM4 5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3accb056f1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M5.93478 9.5H3.32609C3"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/51b4179777.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M4 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM4 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM2 20a2 2 0 1 1 4 0 2 2 0 0 1-4 0ZM9 3a1 1 0 0 0 0 2h12a1 1 0 1 0 0-2H9ZM8 12a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1ZM9 19a1 1 0 1 0 0 2h5a"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9c5704e608.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m13.47 1 .07.04c.45.06"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/11844f42fb.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M14.7 5.3a1 1 0 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/79c2482051.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9Zm.46 1"]):has(path[d^="M12.43 5.7a.5.5 0 0 1 "]):has(path[d^="M2 10c0-1.1.9-2 2-2h.5"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/860cfe5a3b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.47 21.73a.92.92 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/320de4300b.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8.18 14.82c.5-.11 1.0"]):has(path[d^="M12 2a3 3 0 0 1 .91.14"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f236110e0a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20 3a3 3 0 0 1 3 3v4."]):has(path[d^="M15.5 18.02a.74.74 0 1"]):has(path[d^="M19.43 17.52a.74.74 0 "]):has(path[d^="M18.6 14.93a3.17 3.17 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/48d847e505.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M7.03 16.6c1.18 1.17 2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/58b3580a98.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M21.7 5.3a1 1 0 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/1e1a75d640.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M16.44 6.96c.29 0 .51."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/af174d8d6a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.7 12.7a1 1 0 0 0 0-1.4l-5-5a1 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/289dc37fbc.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.52 18.96c.32-.4-.0"]):has(path[d^="m17.73 9.27-.76-2.02a."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/69d3ac6f1d.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM9.2 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3c4521fd57.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.06 4.94a1.5 1.5 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fa0553269c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m12.58 18.26-9.55-6.72"]):has(path[d^="M18.09 14.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9ZM19 20a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-.45-3.5a.5.5 0 0 0-.5.55l.22 2.02c.01.16.17.26.33.23a1.95 "]):has(path[d^="M6.9 9.76a1 1 0 0 0-1."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b788164bd7.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM11.53 11A9.53 9.53 0 0 0 2 20.53c0 .81.66 1.47 1.47 1.47h.22c.24 0 .44-.17.5-.4.29-1.12.84-2.17 1.32-2.91.14-.21.43-.1.4.15l-.26 2.61c-.02.3.2.55.5.55h11."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/340ed240c2.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1 1 0 0 0-1.4-1.4l-20 20ZM3.16"]):has(path[d^="M8.18 10.81c-.13.43.36"]):has(path[d^="M9.72 18.67a.52.52 0 0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7c481047f1.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.03 21.5c-.05.28-.2"]):has(path[d^="M18.09 14.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9Zm.46 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/158ff37e92.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M20.3 5.41h-.39c-.84 0-1.52-.65-1.52-1.46v-.3c0-.9-.77-1.65-1.71-1.65H7.31c-.94 0-1.71.74-1.71 1.65v.3c0 .81-.68 1.46-1.52 1.46H3.7c-.94 0-1.7.73-1.7 1.64v3.52l.01.49c.05 3.11.94 4.69 2.92 6.63C6.72 19.46 11.58 22 11.99 22c.41 0 5.27-2.54 7.06-4.31 1.98-1.95 2.92-3.53 2.92-6.63L22 7.05c0-.9-.76-1.64-1.7-1.64Zm-8.32"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/f42b11d13a.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Zm6.3.3"]):has(path[d^="M13 19.5c0 .28.22.5.5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/631bd62b33.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="m21.5 16.6-.13.14a.88."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/9e22a646fd.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M8 3.99957L4 0 0 3.999"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fc76a90756.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M19.3 20.7a1 1 0 0 0 1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/b3a1ce69d8.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M2 7.4A5.4 5.4 0 0 1 7"]):has(path[d^="M13 7a1 1 0 0 1 1-1 4 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/e85c0a022c.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.1 20.7"]):has(path[d^="M15.16 16.51c-.57.28-1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/2d674ba5a0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M11.45 6.05c.3-.1.6.09"]):has(path[d^="M4.5 8c.28 0 .5.22.5.5"]):has(path[d^="M19 1.4c3.04 0 4.51 2.73 4.93 3.67.1.2.1.43 0 .64-.42.95-1.89 3.68-4.93 3.68s-4.51-2.73-4.93-3.68a.78.78 0 0 1 0-.64c.42-.94 1.89-3.68 4.93-3.68Zm-."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/fd86006bca.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM17.0"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/0d378c1718.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.23 12.63c2.48 0 5."])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3a0cbfcbc6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M12.47 11c1.17 0 2.3.2"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/7581afe120.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M17 4H7a1 1 0 0 0-1 1v"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/3bc3583da0.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M10.67 1.33a9.33 9.33 0 0 1 8.05 1"]):has(path[d^="M23 17.33a1 1 0 0 1 0 "])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/a1e5083682.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
+}
+
+svg:has(path[d^="M23 12a11 11 0 1 1-22 0 11 11 0 0 1 22 0Zm-4.1"])
+{
+    background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cf50a1a7c6.png") center / contain no-repeat !important;
+    --plant-icon-on: 1;
 }
 
 /* ==================== MOTION ==================== */
