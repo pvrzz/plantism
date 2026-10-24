@@ -21,7 +21,7 @@
 <br>
 
 **a storybook garden for your discord.**<br>
-hand-drawn flowers, hanging vines, fireflies at night and pollen in the sun.
+flowers, hanging vines, fireflies at night and pollen in the sun.
 
 <br>
 
@@ -196,7 +196,7 @@ each mode has its own set of `--p-*` colors. override them inside `.theme-dark` 
 
 ## 🌸 the garden
 
-every piece is hand-drawn with the same ink outline. PNGs live in [`assets/`](assets), SVG sources in [`assets/src/`](assets/src).
+every piece is created with the same ink outline. PNGs live in [`assets/`](assets), SVG sources in [`assets/src/`](assets/src).
 
 <div align="center">
 <table>
