@@ -1,7 +1,7 @@
 /**
  * @name plantism
  * @author pvrz
- * @version 2.2.0
+ * @version 2.2.1
  * @description a storybook garden theme for discord. night garden in dark mode, sunlit meadow in light mode.
  * @website https://pvrz.lol
  * @source https://github.com/pvrzz/plantism
@@ -5456,6 +5456,17 @@ svg:has(path[d^="M23 12a11 11 0 1 1-22 0 11 11 0 0 1 22 0Zm-4.1"])
 {
     background: url("https://raw.githubusercontent.com/pvrzz/plantism/main/assets/icons/cf50a1a7c6.png") center / contain no-repeat !important;
     --plant-icon-on: 1;
+}
+
+svg:has(mask),
+svg:has(foreignObject),
+svg:has(defs),
+svg:has(symbol),
+svg:has(clipPath),
+svg:has(image)
+{
+    --plant-icon-on: 0 !important;
+    background: none !important;
 }
 
 /* ==================== MOTION ==================== */
