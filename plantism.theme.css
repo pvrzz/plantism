@@ -1,7 +1,7 @@
 /**
  * @name plantism
  * @author pvrz
- * @version 2.1.0
+ * @version 2.1.1
  * @description a storybook garden theme for discord. night garden in dark mode, sunlit meadow in light mode.
  * @website https://pvrz.lol
  * @source https://github.com/pvrzz/plantism
@@ -733,7 +733,6 @@ section[class*="title_"] [class*="toolbar_"] [class*="selected_"] svg
 /* ==================== USER + VOICE PANEL ==================== */
 section[class*="panels_"]
 {
-    position: relative;
     overflow: visible !important;
     background: var(--p-texture), linear-gradient(180deg, var(--p-frame), var(--p-frame-deep)) !important;
     border-top: 2px solid var(--plant-ink);
